@@ -1,0 +1,37 @@
+.container-fluid .row .logodiv .logo{
+    display: flex;
+    height: 74.34px;
+    width: 100%;
+    
+}
+.bouble-border{
+    height: 1px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+.bselect{
+    border: none;
+    padding-right: 0px;
+}
+.tselect{
+    border: none;
+    /* padding-right: 0px; */
+    padding: none;
+
+
+}
+.uselect{
+
+    border: none;
+
+}
+.iselect{
+
+    border: none;
+
+}
+.container-fluid nav .navselect{
+    display: flex;
+    justify-content: space-between;
+}
+
