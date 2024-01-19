@@ -1,0 +1,368 @@
+
+#logo{
+    display: flex;
+    justify-content: center;
+   
+}
+@media (width:600px){
+    #logo{
+        width:200px;
+        
+    }
+}
+img{
+    height: 90px;
+    width: 900px;
+   
+
+}
+
+#nav{
+    height: 60px;
+   display: flex;
+   border-top: double;
+   border-bottom: double;
+   justify-content: space-evenly;
+   align-items: center;
+   overflow: hidden;
+   
+
+}
+/* @media(width) */
+a{
+   text-decoration: none;
+    font-size: 15px;
+    color: black;
+   overflow: hidden;
+
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+#gap{
+    height: 50px;
+}
+#heading{
+    height: 250px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   overflow: hidden;
+   margin-right: auto;
+   
+
+}
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+   overflow: hidden;
+
+    /* margin-top: 60px; */
+
+}
+#secondgap{
+    height: 50px;
+
+}
+#mulButtons{
+    /* margin-top: 70px; */
+    margin-right: 200px;
+    margin-left: 200px;
+    border-top: double;
+   border-bottom: double;
+   display: flex;
+   justify-content: space-evenly;
+  
+}
+#btncolr{
+    background-color: rgb(49, 47, 47);
+    /* height: 600px; */
+}
+#thirdgap{
+    height: 50px;
+}
+#fourthgap{
+    height: 60px;
+    background-color: blue;
+
+}
+#monthsH-1{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+    
+}
+#monthsH-2{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-3{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-4{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-5{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-6{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-7{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-8{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    /* display: inline-block; */
+
+}
+#monthsH-9{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-10{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-11{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#monthsH-12{
+    margin-right: 600px;
+    margin-left: 200px;
+    height: 250px;
+    border-top: double;
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+#news{
+    /* margin-right: 600px; */
+    margin-left: 200px;
+    height: 250px;
+    /* border-top: double; */
+    border-bottom: double;
+    margin-bottom: 50px;
+    display: inline-block;
+
+    /* display: inline-block; */
+
+}
+
+
+#pictures{
+    height: 200px;
+    width: 150px;
+    /* display: inline-block; */
+}
+#newsImg{
+    height: 200px;
+    width: 400px;
+}
+#smallgap1{
+    height: 20px;
+    background-color: blue;
+}
+h1{
+    margin-left: 200px;
+}
+#ancher{
+    display: inline-block;
+
+}
+#footer{
+    height: 400px;
+    background-color: black;
+    border-top: solid white double;
+    
+    border-color: white;
+}
+#ftrFC{
+    color: white;
+    font-size: 20px;
+    margin-left: 90px;
+}
+#listC{
+    color: white;
+}
+#editions{
+    color: white;
+}
+#container{
+    height: 600px;
+    /* width: 600px; */
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    align-items: flex-start;
+    /* align-content: center; */
+    align-content: flex-start;
+    color: white;
+    background-color: black;
+}
+#box{
+    /* color: white; */
+    background-color: black;
+
+}
+ul{
+    list-style-type: none;
+}
+
+
+.nav-toggle{
+    display: none;
+}
+
+@media screen and (max-width:991px) {
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    #nav{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:700px) {
+   
+    #logo img{
+        width: 200px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+   
+    #heading{
+        width: 700px;
+    }
+    
+}
+@media screen and (max-width:400px) {
+   
+     #heading{
+        /* width: 400px; */
+        justify-content: center;
+        align-items: center;
+   
+
+    } 
+    
+}
+
+@media screen and (max-width:400px) {
+   
+    #news img{
+        height: 100px;
+        width: 200px;
+        display: inline;
+    }
+   
+}
