@@ -243,6 +243,19 @@ img{
     display: flex;
 }
 
+.navbar i{
+    margin-top: -23px;
+}
+
+
+
+/* .background-img{
+    background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg');
+} */
+
+
+
+
 /* .Ltst-Mags a img{
     width: 100%;
 } */
