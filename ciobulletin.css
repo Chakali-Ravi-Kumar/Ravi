@@ -1,37 +1,384 @@
-.container-fluid .row .logodiv .logo{
-    display: flex;
-    height: 74.34px;
+.logo{
+    height: 73.53px;
     width: 100%;
-    
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
-.bouble-border{
+.double-border{
     height: 1px;
     border-top: 1px dotted black;
     border-bottom: 1px dotted black;
+    margin-bottom: 0;
+    margin-top: 0;
+    /* margin-bottom: 0; */
 }
-.bselect{
+.uselect{
     border: none;
-    padding-right: 0px;
+}
+.header{
+    display: flex;
+    /* justify-content: space-around; */
+
 }
 .tselect{
     border: none;
-    /* padding-right: 0px; */
-    padding: none;
+    display: flex;
+
+    
+}
+
+/* dropdown */
+
+
+.even-space{
+    justify-content: space-evenly;
+}
+
+.content{
+    /* display: block; */
+    display: none;
+    /* display: flex; */
+    padding-top: 30px;
+    /* margin-top: 50px; */
+}
+
+.content a{
+    display: block;
+}
+
+.tselect:hover .content{
+    display: block;
+}
+
+/* dropdown */
+
+
+
+
+
+
+.tselect a{
+    display: flex;
+    padding-right: 5px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.bselect{
+    display: flex;
+}
+.bselect a{
+    padding-right: 5px;
+    text-decoration: none;
+    color: black;
+    
+}
+.iselsct{
+    display: flex;
+    /* align-items: center; */
+
+}
+.iselsct a{
+    padding-right: 5px;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 
 
 }
-.uselect{
-
-    border: none;
-
-}
-.iselect{
-
-    border: none;
-
-}
-.container-fluid nav .navselect{
+.header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
+    align-items: center;
+}
+a{
+    text-decoration: none;
 }
 
+.links a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* .col header{
+    display: flex;
+    align-items: center;
+} */
+
+
+.banner img{
+    margin-top: 30px;
+    width: 100%;
+}
+.egt{
+    display: flex;
+}
+
+.heading{
+    margin-top: 30px;
+
+}
+#underline{
+    height: 1px;
+    border-top: none;
+    border-bottom: 1px dotted black;
+}
+.four{
+    display: flex;
+    /* display: inline-block; */
+    margin-top: 30px;
+}
+#search-icon button:hover{
+    background-color: gray;
+    color: white;
+}
+#a-text-black{
+    color: black;
+}
+
+
+.side-bar{
+    /* height: 60px; */
+    width: 100%;
+    border: 2px solid;
+    border-top: 10px solid;
+}
+#sb-con-1{
+    
+}
+#sponsered-news-img{
+    display: flex;
+}
+
+.sd-bar-down-prt img{
+    width: 100%;
+}
+.second-side-bar{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding-bottom: 30px;
+
+    /* border: 1px solid; */
+}
+.second-side-bar button{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    
+}
+
+.second-side-bar button:hover{
+    background-color: rgb(37, 36, 36);
+}
+
+.second-side-bar button:active{
+    
+    border-color: gray;
+}
+
+.top-news{
+    width: 100%;
+}
+
+.featured-news{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}   
+
+.footer a{
+    color: white;
+}
+
+.border-top #border{
+    border-top: 4px solid rgb(161, 158, 158);
+    padding-top: 1px;
+}
+
+
+.foot-head{
+    display: flex;
+    padding-right: 5px;
+}
+
+.second-foot{
+    background-color: black;
+    margin-top: 1px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.Ltst-Mags{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.Ltst-Mags:hover{
+    background-color: transparent;
+}
+.foot-mags a img{
+    height: 100px;
+    width: 60px;
+}
+
+.mags{
+    background-color: black;
+    padding-top: 60px;
+   
+}
+.copy-right{
+    display: flex;
+}
+
+.navbar i{
+    margin-top: -23px;
+}
+
+
+
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar select {
+    border: none;
+}
+
+.navbar li {
+    margin-right: 10px;
+    
+}
+
+.navbar a.btn {
+    text-decoration: none; 
+    color: white;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar i{
+    padding-bottom: 5px;
+}
+
+#footer-ancher{
+    color: white;
+}
+
+.submenu li a:hover{
+        display: block;
+        visibility: visible;
+}
+.navbar .submenu li{
+
+    position: absolute;
+    /* visibility: hidden; */
+    margin-top: 100px;
+    display: block;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+
+
+}
+
+.background-img h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mask .heading{
+
+    justify-content: center;
+    align-items: center;
+
+}
+.dropdown:hover > .dropdown-menu
+{
+    display: flex;
+}
+
+.bg{
+    background-image: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
+    height: 50vh;
+    
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all;
+    
+}
+
+
+/* .text{
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    align-items: center;
+    width: 900px;
+    margin-left: 70px;
+    padding-left: 50px;
+} */
+
+
+
+
+
+
+/* .background-img{
+
+    background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg');
+    height: 100%;
+    width: 100%;
+} */
+
+/* .background-img{
+    background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg');
+} */
+
+
+
+
+/* .Ltst-Mags a img{
+    width: 100%;
+} */
+
+/* #search-icon{
+    
+    border: 1px solid ;
+    height: 29.2px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+#search-icon:hover{
+    background-color: gray;
+    color: white;
+} */
