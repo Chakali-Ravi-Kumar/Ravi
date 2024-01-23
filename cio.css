@@ -155,9 +155,12 @@ a{
     width: 100%;
 }
 .second-side-bar{
-    /* width: 100%; */
+    width: 100%;
+    height: 100%;
     background-color: black;
     color: white;
+    padding-bottom: 30px;
+
     /* border: 1px solid; */
 }
 .second-side-bar button{
@@ -170,6 +173,7 @@ a{
     border: none;
     background-color: rgb(58, 55, 55);
     color: white;
+    
 }
 
 .second-side-bar button:hover{
@@ -248,6 +252,138 @@ img{
 }
 
 
+
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar select {
+    border: none;
+}
+
+.navbar li {
+    margin-right: 10px;
+    
+}
+
+.navbar a.btn {
+    text-decoration: none; 
+    color: white;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar i{
+    padding-bottom: 5px;
+}
+
+#footer-ancher{
+    color: white;
+}
+
+.submenu li a:hover{
+        display: block;
+        visibility: visible;
+}
+.navbar .submenu li{
+
+    position: absolute;
+    /* visibility: hidden; */
+    margin-top: 100px;
+    display: block;
+}
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+
+
+}
+
+.background-img h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mask .heading{
+
+    justify-content: center;
+    align-items: center;
+
+}
+.dropdown:hover > .dropdown-menu
+{
+    display: flex;
+}
+
+.bg{
+    background-image: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
+    height: 50vh;
+    
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all;
+    
+}
+
+
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+
+    overflow: hidden;
+    padding: 60px 0;
+    
+
+}
+.logos-slide img{
+    height: 100px;
+    width: 150px;
+    margin: 0 40px;
+}
+.logos-slide{
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+}
+
+
+
+
+/* .text{
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+    align-items: center;
+    width: 900px;
+    margin-left: 70px;
+    padding-left: 50px;
+} */
+
+
+
+
+
+
+/* .background-img{
+
+    background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg');
+    height: 100%;
+    width: 100%;
+} */
 
 /* .background-img{
     background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg');
