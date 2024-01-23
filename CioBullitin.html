@@ -8,36 +8,6 @@
     <link rel="stylesheet" href="css/cio.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <style>
-        .navbar {
-            list-style: none;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .navbar select {
-            border: none;
-        }
-
-        .navbar li {
-            margin-right: 10px;
-            
-        }
-
-        .navbar a.btn {
-            text-decoration: none; 
-            color: white;
-        }
-
-        .navbar a{
-            color: black;
-            text-decoration: none;
-        }
-        .navbar i{
-            padding-bottom: 5px;
-        }
-    </style>
 </head>
 <body>
     
@@ -53,7 +23,7 @@
     <div class="container">
         <div class="row ">
             <div class="col">
-                <ul class="navbar justify-content-around mt-md-n2 mb-md-n2">
+                <ul class="navbar  mt-md-n2 mb-md-n2">
                     <select name="" id="">
                         <option value="" hidden>USA Edition</option>
                         <option value="">Asia</option>
@@ -66,9 +36,121 @@
                     </select>
 
                     <li><a href="">Home</a></li>
-                    <li><a href="">Technology</a> <i class="fa-solid fa-sort-down mt-md-n5"></i></li>
-                    <li><a href="">Business </a> <i class="fa-solid fa-sort-down"></i></li>
-                    <li><a href="">Industry</a> <i class="fa-solid fa-sort-down"></i></li>
+                    <li>
+                        <!-- <a href="">Technology</a> <i class="fa-solid fa-sort-down mt-md-n5"></i> -->
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Technology
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton ">
+                                <div>
+                                    <a class="dropdown-item" href="#">Big Data</a>
+                                    <a class="dropdown-item" href="#">cloud</a>
+                                    <a class="dropdown-item" href="#">Software</a>
+                                    <a class="dropdown-item" href="#">It Solutions</a>
+                                    <a class="dropdown-item" href="#">Mobile</a>
+                                    <a class="dropdown-item" href="#">Security</a>
+                                    <a class="dropdown-item" href="#">Networking</a>
+                                    <a class="dropdown-item" href="#">Artificial Intellegence</a>
+                                    <a class="dropdown-item" href="#">Data Analyrics</a>
+                                    <a class="dropdown-item" href="#">Cyber Security</a>
+                                </div>
+
+                                <div>
+
+                                    <a class="dropdown-item" href="#">lot</a>
+                                    <a class="dropdown-item" href="#">Sap</a>
+                                    <a class="dropdown-item" href="#">Oracle</a>
+                                    <a class="dropdown-item" href="#">Storages</a>
+                                    <a class="dropdown-item" href="#">Block Chain</a>
+                                    <a class="dropdown-item" href="#">Microsoft</a>
+                                    <a class="dropdown-item" href="#">Database Management</a>
+                                    <a class="dropdown-item" href="#">Gadgets</a>
+                                    <a class="dropdown-item" href="#">IBM</a>
+                                    <a class="dropdown-item" href="#">Saas</a>
+
+                                </div>
+
+                                <div>
+
+                                    <a class="dropdown-item" href="#">Redhat</a>
+                                    <a class="dropdown-item" href="#">Salesforce</a>
+                                    <a class="dropdown-item" href="#">Science and Technology</a>
+                                </div>
+                             
+
+                            </div>
+                          </div>
+
+                    </li>
+                    <li>
+                        <!-- <a href="">Business </a> <i class="fa-solid fa-sort-down"> -->
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Business
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="">
+                                  <div>
+                                    <a class="dropdown-item" href="#">New</a>
+                                  <a class="dropdown-item" href="#">Option</a>
+                                  <a class="dropdown-item" href="#">Others</a>
+                                  </div>
+    
+                                </div>
+                              </div>
+    
+                        </i></li>
+                    <li>
+                        <!-- <a href="">Industry</a> <i class="fa-solid fa-sort-down"> -->
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Industry
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <div>
+                                        <a class="dropdown-item" href="#">Digital Marketing</a>
+                                        <a class="dropdown-item" href="#">Health Care</a>
+                                        <a class="dropdown-item" href="#">Retail</a>
+                                        <a class="dropdown-item" href="#">Telecom</a>
+                                        <a class="dropdown-item" href="#">Erp</a>
+                                        <a class="dropdown-item" href="#">Start Ups</a>
+                                        <a class="dropdown-item" href="#">Media and Entertainment</a>
+                                        <a class="dropdown-item" href="#">Electric and Concept Cars</a>
+                                        <a class="dropdown-item" href="#">Gaming and VFX</a>
+                                        <a class="dropdown-item" href="#">Travel and Hospetality</a>
+                                    </div>
+    
+                                    <div>
+    
+                                        <a class="dropdown-item" href="#">Food and Baverages</a>
+                                        <a class="dropdown-item" href="#">Robotics </a>
+                                        <a class="dropdown-item" href="#">Legal</a>
+                                        <a class="dropdown-item" href="#">Real Estate</a>
+                                        <a class="dropdown-item" href="#">Banking and Finanace</a>
+                                        <a class="dropdown-item" href="#">Oil and Gases</a>
+                                        <a class="dropdown-item" href="#">Bio-Tech</a>
+                                        <a class="dropdown-item" href="#">Space</a>
+                                        <a class="dropdown-item" href="#">Management Consulting</a>
+                                        <a class="dropdown-item" href="#">Edtech</a>
+    
+                                    </div>
+    
+                                    <div>
+    
+                                        <a class="dropdown-item" href="#">Defence Technology</a>
+                                        <a class="dropdown-item" href="#">Crypto Currency</a>
+                                        <a class="dropdown-item" href="#">Science and Technology</a>
+                                        <a class="dropdown-item" href="#">Clean Energy</a>
+                                        <a class="dropdown-item" href="#">Automobile</a>
+                                        <a class="dropdown-item" href="#">Life Style and Fashion</a>
+                                        <a class="dropdown-item" href="#">Environmental Sustainability</a>
+                                        <a class="dropdown-item" href="#">Metals and Mining</a>
+                                        <a class="dropdown-item" href="#">Supply Chain Management</a>
+
+                                    </div>
+                                </div>
+                              </div>
+                        </i></li>
                     <li><a href="">Magazines</a></li>
                     <li><a href="">Videos</a></li>
                     <li><a href="">CXOs</a></li>
@@ -76,7 +158,10 @@
                     <a href="" class="btn btn-danger">Subscribe</a>
                 </ul>
             </div>
+    
         </div>
+        
+
     </div>
     <hr class="double-border">
     <div class="content">
@@ -143,42 +228,79 @@
 
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- ancher tags second part starts -->
-        <div class="row mt-md-4 ">
-            <div class="col-md-9">
-                <div class="row pb-md-5">
-                    <div class="col-md-3">
-                            <p>Legal</p>
-                            <h4><a href="" id="a-text-black">Judge rejects jetBlue's $3.8 billion acquisition of Spirit Airlines</a></h4>
-                            <hr id="underline" style="padding-bottom: 29px;">
 
-                    </div>
-                    <div class="col-md-3">
-                            <p>Digital-Marketing</p>
-                            <h4><a href="" id="a-text-black">How To Harness the Power of AI in Financial Service Marketing</a></h4>
-                            <hr id="underline" style="padding-bottom: 29px;">
 
-                    </div>
-                    <div class="col-md-3">
-                            <p>Microsoft</p>
-                            <h4><a href="" id="a-text-black">Microsoft introduces Copilot Pro featuring personalized GPTs</a></h4>
-                            <hr id="underline">
-
-                    </div>
-                    <div class="col-md-3">
-                            <p>Others</p>
-                            <h4><a href="" id="a-text-black">How Safe is Ypur Online Business in 2024</a></h4>
-                            <hr id="underline" style="padding-bottom: 86px;"> 
-
+                <div class="row mt-md-4 ">
+                    <div class="col-md-12">
+                        <div class="row pb-md-5">
+                            <div class="col-md-3">
+                                    <p>Legal</p>
+                                    <h4><a href="" id="a-text-black">Judge rejects jetBlue's $3.8 billion acquisition of Spirit Airlines</a></h4>
+                                    <hr id="underline" style="padding-bottom: 29px;">
+        
+                            </div>
+                            <div class="col-md-3">
+                                    <p>Digital-Marketing</p>
+                                    <h4><a href="" id="a-text-black">How To Harness the Power of AI in Financial Service Marketing</a></h4>
+                                    <hr id="underline" style="padding-bottom: 29px;">
+        
+                            </div>
+                            <div class="col-md-3">
+                                    <p>Microsoft</p>
+                                    <h4><a href="" id="a-text-black">Microsoft introduces Copilot Pro featuring personalized GPTs</a></h4>
+                                    <hr id="underline" style="padding-bottom:1px;">
+        
+                            </div>
+                            <div class="col-md-3">
+                                    <p>Others</p>
+                                    <h4><a href="" id="a-text-black">How Safe is Ypur Online Business in 2024</a></h4>
+                                    <hr id="underline" style="padding-bottom: 87px;"> 
+        
+                            </div>
+                            
+                        </div>
+                       
                     </div>
                     
                 </div>
-               
+        
+
+
+
+                
+    
+
+
+
+                <!-- here -->
             </div>
-            
+            <div class="col-md-3 mt-md-n5 side-bar">
+                <div  class="mt-md-3">
+                    <p>Media-and-entertainment</p>
+                    <h5><a href="" id="a-text-black">Netflix reworks Microsoft deal, lowers ad fee in bid for growth</a></h5>
+                    <hr id="underline" class="mt-md-4"> 
+
+                    <p>It-services</p>
+                    <h5><a href="" id="a-text-black">When will quantum computers hit the market?</a></h5>
+                    <hr id="underline" class="mt-md-4"> 
+
+
+                    <p>Software</p>
+                    <h5><a href="" id="a-text-black">Rice University develops software for movement impairment</a></h5>
+                    <hr id="underline" class="mt-md-4"> 
+
+
+                    <p>Gaming-and-vfx</p>
+                    <h5><a href="" id="a-text-black">Call of Duty welcomes snoop Dogg as a guest operator</a></h5>
+                    <hr id="underline" class="mt-md-4"> 
+
+                </div>
+            </div>
         </div>
+        <!-- ancher tags second part starts -->
+        
+
+
         
         
         <div class="row mt-md-n4">
@@ -247,28 +369,18 @@
 
            
 
-            <div class="col-md-3 mt-md-n5 side-bar">
-                <div  class="mt-md-3">
-                    <p>Media-and-entertainment</p>
-                    <h5><a href="" id="a-text-black">Netflix reworks Microsoft deal, lowers ad fee in bid for growth</a></h5>
-                    <hr id="underline" class="mt-md-4"> 
+            <!-- side bar starts -->
 
-                    <p>It-services</p>
-                    <h5><a href="" id="a-text-black">When will quantum computers hit the market?</a></h5>
-                    <hr id="underline" class="mt-md-4"> 
-
-
-                    <p>Software</p>
-                    <h5><a href="" id="a-text-black">Rice University develops software for movement impairment</a></h5>
-                    <hr id="underline" class="mt-md-4"> 
-
-
-                    <p>Gaming-and-vfx</p>
-                    <h5><a href="" id="a-text-black">Call of Duty welcomes snoop Dogg as a guest operator</a></h5>
-                    <hr id="underline" class="mt-md-4"> 
-
-                </div>
+            <div class="col-md-3  mr-md-n5 mb-md-0  second-side-bar">
+                <h5 class="mt-md-3">Newsletters</h5>
+                <p>Email</p>
+                <form action="">
+                    <input type="text" placeholder="Email">
+                </form>
+                <button class="mt-md-3"> <i class="fa-solid fa-paper-plane" style="padding-right: 5px;"></i> Subscribe</button>
             </div>
+
+            <!-- sidebar ends -->
 
         </div>
         
@@ -312,14 +424,14 @@
 
                 </div>
             </div>
-            <div class="col-md-3 mr-md-n5 mb-md-0  second-side-bar">
-                <h5 class="mt-md-3">Newsletters</h5>
-                <p>Email</p>
-                <form action="">
-                    <input type="text" placeholder="Email" style="width: 250px; height: 40px;">
-                </form>
-                <button class="mt-md-3"> <i class="fa-solid fa-paper-plane" style="padding-right: 5px;"></i> Subscribe</button>
-            </div>
+
+            <!-- second side bar starts -->
+           
+
+
+            <!-- second side bar  -->
+
+
         </div>
 
 
@@ -511,21 +623,57 @@
 
         </div>
 
-        <div class="row">
-            <div class="col background-img">
-                <!-- style="background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg'); -->
-                <img class="w-100" src="https://www.ciobulletin.com/image/cb-website-banner03.jpg">
-                <!-- backgr -->
-                <!-- <h2>background-img</h2> -->
-                
-
-                
-              
+        <div class="bg">
+            <div class="container">
+                <div class="row ">
+                    <div class="text mt-sm-5 ml-sm-5 pt-sm-5 pl-sm-3 justify-content-center align-self-center">
+                        <h2 style="margin-left: 100px; color: white;">Best Business Magazines and News Online</h2>
+                        <p style="color: white; font-size: 15px;">CIO Bulletin is the best US magazine and one of the most trusted online platforms to follow latest IT and business trends. A best entrepreneur and technology magazine, and a publisher of best news online, CIO Bulletin is a route map for business professionals and budding entrepreneurs. By working closely as a media partner, CIO Bulletin makes its clients understand what they can actually accomplish.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <!-- background img code starts -->
 
-        <hr class="double-border mt-md-3">
+        <!-- <div class="row mb-md-n5">
+            <div class="col background-img"
+                style="background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg'); 
+                height: 50vh; background-repeat: no-repeat; background-size: 100%;"
+                 
+            > -->
+
+            <!-- <div class="row justify-content-center align-items-center" style="display: block; ">
+                <div class="col-md-6">
+                    <h3 style="color: white; margin-top: 50px; margin-right: 50px;">Best Business Magazines and News Online</h3>
+                </div>
+                <div class="col-md-6">
+                    <p>CIO Bulletin is the best US magazine and one of the most trusted online platforms to follow latest IT and business trends. A best entrepreneur and technology magazine, and a publisher of best news online, CIO Bulletin is a route map for business professionals and budding entrepreneurs. By working closely as a media partner, CIO Bulletin makes its clients understand what they can actually accomplish.</p>
+                </div>
+            </div> -->
+
+
+            <!-- <div class="mask">
+                <div class="d-flex justify-content-center align-items-center h-100 heading" style="display: block;">
+                  <h3 class="text-white mb-0 mt-md-5" style="text-align: center;">Best Business Magazines and News Online</h3>
+                </div>
+                <div class=" row mt-sm-2 justify-content-center align-items-center">
+                    
+                        <p style="color: white;  width: 100%; justify-content: center; align-items: center;" class="col-lg-8 col-mg-6 col-sm-5 " >CIO Bulletin is the best US magazine and one of the most trusted online platforms to follow latest IT and
+                            business trends. A best entrepreneur and technology magazine, and a publisher of best news online, CIO 
+                            Bulletin is a route map for business professionals and budding entrepreneurs. By working closely as a media 
+                            partner, CIO Bulletin makes its clients understand what they can actually accomplish.</p>
+                       
+                </div>
+              </div>
+              
+            </div>
+        </div> -->
+
+        <!-- backg img code ends -->
+
+
+        <hr class="double-border " style="margin-top: 20px;">
 
 
         <div class="row">
@@ -651,6 +799,41 @@
 
         </div>
         
+        <hr class="double-border ">
+        <div class="row">
+            <div class="col">
+                <h1>Most Featured Companies</h1>
+                
+            </div>
+        </div>
+
+        
+                <div class="logos">
+                    <div class="logos-slide">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-anchin.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-digital%20commerce%20bank.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-kraftpal%20technologies.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-archergrey.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-national%20retail%20solutions.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-pura.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-abbey%20research.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-opticwise.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-opticwise.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-frannexus.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-growth%20institute.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-implantica.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-implantica.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-aatrix%20software.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-aatrix%20software.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-opticwise.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-canon%20business%20process%20services.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-cellwine.jpg" alt="">
+                        <img src="https://www.ciobulletin.com/image/featurecompanyimages/ciobulletin-growth%20institute.jpg" alt="">
+
+                 
+                    </div>
+                </div>
+
 
         
         <!-- container 4 ends -->
@@ -818,15 +1001,15 @@
                 <div class="col-md-4 copy-right mr-auto">
                     <i class="fa-regular fa-copyright" style="padding-right: 5px; margin-top: 5px;"></i>
                     <p style="padding-right: 5px;">2024</p> 
-                    <a href="" style="padding-right: 5px;">CIO Bulletin Inc. </a>
+                    <a href="" style="padding-right: 5px;" id="footer-ancher">CIO Bulletin Inc. </a>
                     <p style="padding-right: 5px;">All rights reserved.</p>
                 </div>
 
                 <div class="col-md-4">
-                    <a href="">Privacy Policy</a>
-                    <a href="">Disclaimer</a>
-                    <a href="">Reprint & Permission</a>
-                    <a href="">Pricing</a>
+                    <a href="" id="footer-ancher">Privacy Policy</a>
+                    <a href="" id="footer-ancher">Disclaimer</a>
+                    <a href="" id="footer-ancher">Reprint & Permission</a>
+                    <a href="" id="footer-ancher">Pricing</a>
 
                 </div>
             </div>
