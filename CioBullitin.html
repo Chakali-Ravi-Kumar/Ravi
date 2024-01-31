@@ -6,12 +6,9 @@
     <title>CIobullitin</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/cio.css">
-	<!-- <link rel="stylesheet" href="./owl.css"> -->
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
 </head>
 <body>
     
@@ -24,10 +21,167 @@
         </div>
     </div>
     <hr class="double-border">
+    
+    <div class="row menu ml-0" >
+        <div class="dropdown show " style="display: block;">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onClick="showOrHide()">
+                <i class="fa-solid fa-bars"></i>
+            </a>
+          
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink" >
+              
+                    
+                    <ul class="navbar  mt-md-n2 mb-md-n2 pr-0">
+                        <select name="" id="">
+                            <option value="" hidden>USA Edition</option>
+                            <option value="">Asia</option>
+                            <option value="">USA</option>
+                            <option value="">Europe</option>
+                            <option value="">Africa</option>
+                            <option value="">UK</option>
+                            <option value="">Australia</option>
+                            <option value="">Middle-East</option>
+                        </select>
+
+                        <li><a href="">Home</a></li>
+                        <li>
+                            <!-- <a href="">Technology</a> <i class="fa-solid fa-sort-down mt-md-n5"></i> -->
+                            <div class="dropdown">
+                                <button class="btn  dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="border-color: white; box-shadow: none;">
+                                Technology
+                                </button>
+                                <div class="dropdown-menu tech" aria-labelledby="dropdownMenuButton " style="overflow: scroll; width: 100vw; margin-bottom: 20px;">
+                                    <div class="mt-3">
+                                        <a class="dropdown-item" href="#">Big Data</a>
+                                        <a class="dropdown-item" href="#">cloud</a>
+                                        <a class="dropdown-item" href="#">Software</a>
+                                        <a class="dropdown-item" href="#">It Solutions</a>
+                                        <a class="dropdown-item" href="#">Mobile</a>
+                                        <a class="dropdown-item" href="#">Security</a>
+                                        <a class="dropdown-item" href="#">Networking</a>
+                                        <a class="dropdown-item" href="#">Artificial Intellegence</a>
+                                        <a class="dropdown-item" href="#">Data Analyrics</a>
+                                        <a class="dropdown-item" href="#">Cyber Security</a>
+                                    </div>
+
+                                    <div>
+
+                                        <a class="dropdown-item" href="#">lot</a>
+                                        <a class="dropdown-item" href="#">Sap</a>
+                                        <a class="dropdown-item" href="#">Oracle</a>
+                                        <a class="dropdown-item" href="#">Storages</a>
+                                        <a class="dropdown-item" href="#">Block Chain</a>
+                                        <a class="dropdown-item" href="#">Microsoft</a>
+                                        <a class="dropdown-item" href="#">Database Management</a>
+                                        <a class="dropdown-item" href="#">Gadgets</a>
+                                        <a class="dropdown-item" href="#">IBM</a>
+                                        <a class="dropdown-item" href="#">Saas</a>
+
+                                    </div>
+
+                                    <div>
+
+                                        <a class="dropdown-item" href="#">Redhat</a>
+                                        <a class="dropdown-item" href="#">Salesforce</a>
+                                        <a class="dropdown-item" href="#">Science and Technology</a>
+                                    </div>
+                                
+
+                                </div>
+                            </div>
+
+                        </li>
+                        <li>
+                            <!-- <a href="">Business </a> <i class="fa-solid fa-sort-down"> -->
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="box-shadow: none;">
+                                    Business
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="justify-content: center;">
+                                    <div>
+                                    <a class="dropdown-item" href="#">New</a>
+                                    <a class="dropdown-item" href="#">Option</a>
+                                    <a class="dropdown-item" href="#">Others</a>
+                                    </div>
+        
+                                    </div>
+                                </div>
+        
+                            </i></li>
+                        <li>
+                            <!-- <a href="">Industry</a> <i class="fa-solid fa-sort-down"> -->
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                                    Industry
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" style="overflow: scroll; width: 100vw;">
+                                        <div>
+                                            <a class="dropdown-item" href="#">Digital Marketing</a>
+                                            <a class="dropdown-item" href="#">Health Care</a>
+                                            <a class="dropdown-item" href="#">Retail</a>
+                                            <a class="dropdown-item" href="#">Telecom</a>
+                                            <a class="dropdown-item" href="#">Erp</a>
+                                            <a class="dropdown-item" href="#">Start Ups</a>
+                                            <a class="dropdown-item" href="#">Media and Entertainment</a>
+                                            <a class="dropdown-item" href="#">Electric and Concept Cars</a>
+                                            <a class="dropdown-item" href="#">Gaming and VFX</a>
+                                            <a class="dropdown-item" href="#">Travel and Hospetality</a>
+                                        </div>
+        
+                                        <div>
+        
+                                            <a class="dropdown-item" href="#">Food and Baverages</a>
+                                            <a class="dropdown-item" href="#">Robotics </a>
+                                            <a class="dropdown-item" href="#">Legal</a>
+                                            <a class="dropdown-item" href="#">Real Estate</a>
+                                            <a class="dropdown-item" href="#">Banking and Finanace</a>
+                                            <a class="dropdown-item" href="#">Oil and Gases</a>
+                                            <a class="dropdown-item" href="#">Bio-Tech</a>
+                                            <a class="dropdown-item" href="#">Space</a>
+                                            <a class="dropdown-item" href="#">Management Consulting</a>
+                                            <a class="dropdown-item" href="#">Edtech</a>
+        
+                                        </div>
+        
+                                        <div>
+        
+                                            <a class="dropdown-item" href="#">Defence Technology</a>
+                                            <a class="dropdown-item" href="#">Crypto Currency</a>
+                                            <a class="dropdown-item" href="#">Science and Technology</a>
+                                            <a class="dropdown-item" href="#">Clean Energy</a>
+                                            <a class="dropdown-item" href="#">Automobile</a>
+                                            <a class="dropdown-item" href="#">Life Style and Fashion</a>
+                                            <a class="dropdown-item" href="#">Environmental Sustainability</a>
+                                            <a class="dropdown-item" href="#">Metals and Mining</a>
+                                            <a class="dropdown-item" href="#">Supply Chain Management</a>
+
+                                        </div>
+                                    </div>  
+                                </div>
+                            </i></li>
+                        <li><a href="">Magazines</a></li>
+                        <li><a href="">Videos</a></li>
+                        <li><a href="">CXOs</a></li>
+                        <li><a href="">Client Speaks</a></li>
+                        <a href="" class="btn btn-danger">Subscribe</a>
+
+                        <!-- <a href="" class="nav-toggle"><i class="fa-solid fa-bars"></i></a> -->
+                    </ul>
+            </div>
+          </div>
+    </div>
     <div class="container" >
         <div class="row">
 
             <div class="col nav-links" id="nav-links">
+
+
+
+
+
+
+
+                  
                 <ul class="navbar  mt-md-n2 mb-md-n2 pr-0">
                     <select name="" id="">
                         <option value="" hidden>USA Edition</option>
@@ -166,7 +320,7 @@
                 </ul>
                 
             </div>
-            <a href="" class="nav-toggle" id="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+            <a href="" class="nav-toggle" id="nav-toggle"></a>
 
     
         </div>
@@ -182,14 +336,14 @@
 
 
     <div class="container">
-        <div class="row offset-md-9">
-            <div class="col-md-3 four">
+        <div class="row justify-content-end ">
+            <div class="col-lg-4 four  search-bar">
                 <form action="">
-                    <input type="text" placeholder="Search">
+                    <input type="text" placeholder="   Search" style="width: 275px; height: 40px;">
                 </form>
                 
                 <div id="search-icon">
-                    <button> <i class="fa-solid fa-magnifying-glass" style="padding: 4px;"></i></button>
+                    <button style="height: 40px; width: 40px; justify-content: center;"> <i class="fa-solid fa-magnifying-glass" style="padding: 4px; "></i></button>
                    
                 </div>
             
@@ -199,23 +353,23 @@
         </div>
         
         <div class="row justify-content-center">
-            <div class="col-sm-12 egt">
-                
-                <div class="col-md-6 banner">
-                    <img src="banner.jpg" alt="">
-                </div>
-                <div class="col-md-6 heading">
-                    <h2>US DOE Issues a $14.5 million call for marine energy research</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptates vel facere cum unde at esse illo fugiat Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. repudiandae alias!... <a href="" style="text-decoration-color: black;">Read News</a> </p>
-                    <hr id="underline">
-                </div>
+            <div class="col-md-12 egt">
                
+                    <div class="col-md-6  banner">
+                        <img src="banner.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 heading">
+                        <h2>US DOE Issues a $14.5 million call for marine energy research</h2>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo voluptates vel facere cum unde at esse illo fugiat Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. repudiandae alias!... <a href="" style="text-decoration-color: black;">Read News</a> </p>
+                        <hr id="underline">
+                    </div>
+             
             </div>
             
             <!-- row end -->
         </div>
-        <div class="row mt-md-4">
-            <div class="col-md-9">
+        <div class="row mt-md-4 cont2 ml-md-1">
+            <div class="col-md-9 mt-md-3">
                 <div class="row">
                     <div class="col-md-3">
                             <p>News</p>
@@ -246,7 +400,7 @@
 
                 <div class="row mt-md-4 ">
                     <div class="col-md-12">
-                        <div class="row pb-md-5">
+                        <div class="row pb-md-5" style="margin-bottom: 70px;">
                             <div class="col-md-3">
                                     <p>Legal</p>
                                     <h4><a href="" id="a-text-black">Judge rejects jetBlue's $3.8 billion acquisition of Spirit Airlines</a></h4>
@@ -265,10 +419,10 @@
                                     <hr id="underline" style="padding-bottom:1px;">
         
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 Others">
                                     <p>Others</p>
                                     <h4><a href="" id="a-text-black">How Safe is Ypur Online Business in 2024</a></h4>
-                                    <hr id="underline" style="padding-bottom: 87px;"> 
+                                    <hr id="underline" style="padding-bottom: 100px;"> 
         
                             </div>
                             
@@ -289,7 +443,7 @@
                 <!-- here -->
             </div>
             <div class="col-md-3 mt-md-n5 side-bar">
-                <div  class="mt-md-3">
+                <div  class="mt-md-3 ">
                     <p>Media-and-entertainment</p>
                     <h5><a href="" id="a-text-black">Netflix reworks Microsoft deal, lowers ad fee in bid for growth</a></h5>
                     <hr id="underline" class="mt-md-4"> 
@@ -318,8 +472,8 @@
         
         
         <div class="row mt-md-n4">
-            <div class="col-md-9">
-                <hr class="double-border ">
+            <div class="col-md-9 mt-sm-5" >
+                <hr class="double-border mt-sm-5" style="margin-top: 50px;">
             </div>
         </div>
 
@@ -330,53 +484,36 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-md-9 ">
                 <div class="row"> 
-                    <div class="col-md-4">
+                    <div class="col-md-4 video" style="margin-bottom: 20px;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/ISFWGqxxOJE?si=IPl6oRqZu6jc3c18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%;"></iframe>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 video" style="margin-bottom: 20px;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/0uREZEfBPpw?si=wMSZJHzjQ4PuSasu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="width: 100%; height: 100%;"></iframe>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 video" style="margin-bottom: 20px;">
                         <iframe width="560" height="315" src="https://www.youtube.com/embed/M7n_CNd-OLw?si=vR_tFL1Z0qPoXEgf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  style="width: 100%; height: 100%;"></iframe>
                     </div>
+              
                 </div>
-                <hr class="double-border mt-md-3">
-
-                <!--  -->
-                <div class="row" style="overflow-x: hidden;">
-                    <!-- <div class="col-md-9"> -->
-                        <h1 class="mt-md-n0">Sponsored News</h1>
-                        <div id="sponsered-news-img">
-                            <div class="col-md-4">
-                                <img src="https://www.ciobulletin.com/assets/home_image/Sustainable-Practices-Volunteer-Management-Software-in-Eco-Friendly-Industries.webp" alt="" style="width: 100%;">
-                                <p>Software</p>
-
-                                <h5><a href="" id="a-text-black">Sustainable Practices: Volunteer Management Software in Eco-Friendly Industries</a></h5>
-                                <hr id="underline" class="mt-md-4">
-
-                            </div>
-                            <div class="col-md-4">
-                                <img src="https://www.ciobulletin.com/assets/home_image/Rich-Media-Revelations-Incorporating-Multimedia-in-Push-Notification-Techniques.webp" alt="" style="width: 100%;">
-                                <p>Media-and-entertainment</p>
-
-                                <h5><a href="" id="a-text-black">Rich Media Revelations: Incorporating Multimedia in Push Notification Techniques</a></h5>
-                                <hr id="underline" class="mt-md-4">
-
-                            </div>
-                            <div class="col-md-4">
-                                <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-Gerd-Altmann.webp" alt="" style="width: 100%;">
-                                <p>Digital-marketing</p>
-
-                                <h5><a href="" id="a-text-black">How To Harness the Power of AI in Financial Service Marketing</a></h5>
-                                <hr id="underline" class="mt-md-5">
-
-                            </div>
-                        <!-- </div> -->
-
+                <div class="row">
+                    <div class="col mb-sm-5" >
+                        <hr class="double-border mt-md-3 mb-sm-5" style="margin-bottom: 90px;">
                     </div>
                 </div>
+             
+
+
+
+
+
+
+
+                
+
+                <!--  -->
+                
                 <!--  -->
 
             </div>
@@ -385,7 +522,7 @@
 
             <!-- side bar starts -->
 
-            <div class="col-md-3  mr-md-n5 mb-md-0  pb-md-2  second-side-bar">
+            <div class="col-md-3  mr-md-n5 mb-md-0  pb-md-2  second-side-bar" style="margin-bottom: 80px;">
                 <h5 class="mt-md-3">Newsletters</h5>
                 <p>Email</p>
                 <form action="">
@@ -396,6 +533,46 @@
 
             <!-- sidebar ends -->
 
+        </div>
+
+        <div class="row" >
+            <div class="col-md-9" style="display: inline;"> 
+               
+                   <div class="row">
+                    <div>
+                        <h1 class="mt-md-n0 p-3">Sponsored News</h1>
+                    </div>
+                   </div>
+                   
+                       <div class="row">
+                            <div class="col-md-4">
+                                <img src="https://www.ciobulletin.com/assets/home_image/Sustainable-Practices-Volunteer-Management-Software-in-Eco-Friendly-Industries.webp" alt="" style="width: 100%;">
+                                <p>Software</p>
+    
+                                <h5><a href="" id="a-text-black">Sustainable Practices: Volunteer Management Software in Eco-Friendly Industries</a></h5>
+                                <hr id="underline" class="mt-md-4">
+    
+                            </div>
+                            <div class="col-md-4">
+                                <img src="https://www.ciobulletin.com/assets/home_image/Rich-Media-Revelations-Incorporating-Multimedia-in-Push-Notification-Techniques.webp" alt="" style="width: 100%;">
+                                <p>Media-and-entertainment</p>
+    
+                                <h5><a href="" id="a-text-black">Rich Media Revelations: Incorporating Multimedia in Push Notification Techniques</a></h5>
+                                <hr id="underline" class="mt-md-4">
+    
+                            </div>
+                            <div class="col-md-4">
+                                <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-Gerd-Altmann.webp" alt="" style="width: 100%;">
+                                <p>Digital-marketing</p>
+    
+                                <h5><a href="" id="a-text-black">How To Harness the Power of AI in Financial Service Marketing</a></h5>
+                                <hr id="underline" class="mt-md-5">
+    
+                            </div>
+                       </div>
+           
+
+            </div>
         </div>
         
 
@@ -451,6 +628,9 @@
 
         <div class="row">
             <div class="col">
+                <hr class="double-border">
+                <h1>Business Magazine</h1>
+
                 <div id="Carousel-slider">
                     <section>
                         <div class="Carousel-slider">
@@ -467,79 +647,23 @@
                             <div class="slider-item slider4" data-href="#" >
                 
                             </div>
-                            <div class="slider-item slider4" data-href="#" >
-                
-                            </div>
+                           
                             <div class="slider-item slider5" data-href="#" >
                 
                             </div>
-                            <!-- <div class="slider-item superHero7" data-href="#" >
-                
-                            </div> -->
+                            
                             <!-- Background Images div End -->
                         </div>
                     </section>
                 </div>
+            <hr class="double-border">
+
                 
             </div>
         </div>
 
 
         <!-- business magazine animation here -->
-
-
-<!-- 
-        <div class="row">
-            <div class="col">
-                <div id="Carousel-slider">
-                    <section>
-                        <div class="Carousel-slider">
-                           
-                            <div class="slider-item slider1" data-href="#" >
-                
-                            </div>
-                            <div class="slider-item slider2" data-href="#" >
-                
-                            </div>
-                            <div class="slider-item slider3" data-href="#" >
-                
-                            </div>
-                            <div class="slider-item slider4" data-href="#" >
-                
-                            </div>
-                            <div class="slider-item slider4" data-href="#" >
-                
-                            </div>
-                            <div class="slider-item slider5" data-href="#" >
-                
-                            </div>
-                           
-                            
-                        </div>
-                    </section>
-                </div>
-            </div>
-        </div> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -597,8 +721,7 @@
     </div>
 
 
-    <!-- Third container starts -->
-    <div class="container-fulid featured-news" style="overflow-x: hidden;">
+    <!-- Third container starts -->    <div class="container-fulid featured-news" style="overflow-x: hidden;">
         <div class="row">
             <div class="container mb-md-5">
 
@@ -608,23 +731,23 @@
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <div class="row py-3" style="display: flex;">
-                                <div class="col-md-6 ">
-                                    <a href=""><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-digital-real-estate-how-invest-digital-real-estate.webp" alt="" class="d-block w-100"></a>
+                                <div class="col-md-6">
+                                    <a href=""><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-digital-real-estate-how-invest-digital-real-estate.webp" alt="" class="d-block w-100 p-4"></a>
                                 </div>
                                 <div class="col-md-6">
-                                    <a href="" style="color: white; text-decoration-color: white;"><h2>Homes on the Internet: Introduction to Digital Real Estate</h2></a>
-                                    <p>The emergence and rapid advancement of the internet changed everyone’s lives forever. The way the current generation lives, works, and even invests is hugely impacted by the internet. One such r...</p>
+                                    <a href="" style="color: white; text-decoration-color: white;" ><h2 class="p-4">Homes on the Internet: Introduction to Digital Real Estate</h2></a>
+                                    <p class="p-4">The emergence and rapid advancement of the internet changed everyone’s lives forever. The way the current generation lives, works, and even invests is hugely impacted by the internet. One such r...</p>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="row py-3" style="display: flex;">
                                 <div class="col-md-6 ">
-                                    <a href=""><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mattel-not-using-plastic.webp" alt="" class="d-block w-100"></a>
+                                    <a href="" style="color: white; text-decoration-color: white;"><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mattel-not-using-plastic.webp" alt="" class="d-block w-100 p-4"></a>
                                 </div>
                                 <div class="col-md-6">
-                                    <a href=""><h2>Mattel’s prohibition on utilizing plastic by 2023 was a hoax</h2></a>
-                                    <p>The announcement that led people to believe that the Barbie doll makers, Mattle, were stopping the use of plastic by 2023 was a scam. Daryl Hannah, 62, the star of "Splash," asserted in a YouTube vi...</p>
+                                    <a href="" style="color: white; text-decoration-color: white;"><h2 class="p-4">Mattel’s prohibition on utilizing plastic by 2023 was a hoax</h2></a>
+                                    <p class="p-4">The announcement that led people to believe that the Barbie doll makers, Mattle, were stopping the use of plastic by 2023 was a scam. Daryl Hannah, 62, the star of "Splash," asserted in a YouTube vi...</p>
                                 </div>
                             </div>
                         </div>
@@ -632,11 +755,11 @@
                         <div class="carousel-item">
                             <div class="row py-3" style="display: flex;">
                                 <div class="col-md-6 ">
-                                    <a href=""><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-fast-fashion-improve-reputation-repairs.webp" alt="" class="d-block w-100"></a>
+                                    <a href="" style="color: white; text-decoration-color: white;"><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-fast-fashion-improve-reputation-repairs.webp" alt="" class="d-block w-100 p-4"></a>
                                 </div>
                                 <div class="col-md-6">
-                                   <a href=""> <h2>Fast fashion seeks to improve its reputation through repairs</h2></a>
-                                    <p>After encouraging customers to purchase an increasing number of new items of clothing, fast-fashion retailers like H&M, Uniqlo, and Zara now want customers to fix their worn-out clothing. The act...</p>
+                                   <a href="" style="color: white; text-decoration-color: white;"> <h2 class="p-4">Fast fashion seeks to improve its reputation through repairs</h2></a>
+                                    <p class="p-4">After encouraging customers to purchase an increasing number of new items of clothing, fast-fashion retailers like H&M, Uniqlo, and Zara now want customers to fix their worn-out clothing. The act...</p>
                                 </div>
                             </div>
                         </div>
@@ -645,41 +768,34 @@
                         <div class="carousel-item">
                             <div class="row py-3" style="display: flex;">
                                 <div class="col-md-6 ">
-                                    <a href=""><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mongolia-cooperation-us-rare-earths.webp" alt="" class="d-block w-100"></a>
+                                    <a href=""><img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mongolia-cooperation-us-rare-earths.webp" alt="" class="d-block w-100 p-4"></a>
                                 </div>
                                 <div class="col-md-6">
-                                   <a href=""> <h2>On Washington visit, Mongolia's PM says will expand cooperation with the US on rare earths</h2></a>
-                                    <p>Mongolia's Prime Minister L. Oyun-Erdene said during a visit to Washington that the nation and the US will expand their collaboration to mine rare earths. However, he cautioned that the world economy...</p>
+                                   <a href="" style="color: white; text-decoration-color: white;"   > <h2 class="p-4">On Washington visit, Mongolia's PM says will expand cooperation with the US on rare earths</h2></a>
+                                    <p class="p-4">Mongolia's Prime Minister L. Oyun-Erdene said during a visit to Washington that the nation and the US will expand their collaboration to mine rare earths. However, he cautioned that the world economy...</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        
-                
-            
-
-
-
-
                 <div class="row">
                     <div class="col-md-3">
-                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-digital-real-estate-how-invest-digital-real-estate.webp" alt="" style="width: 100%;" class="mt-md-3">
-                        <h4>Homes on the Internet: Introduction to Digital Real Estate</h4>
+                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-digital-real-estate-how-invest-digital-real-estate.webp" alt="" style="width: 100%;" class="mt-md-3 p-4">
+                        <h4 class="p-4">Homes on the Internet: Introduction to Digital Real Estate</h4>
                     </div>
                     <div class="col-md-3">
-                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mattel-not-using-plastic.webp" alt="" style="width: 100%;" class="mt-md-3">
-                        <h4>Mattel's prohibition on utilizing plastic by 2023 was a hoax</h4>
+                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mattel-not-using-plastic.webp" alt="" style="width: 100%;" class="mt-md-3 p-4">
+                        <h4 class="p-4">Mattel's prohibition on utilizing plastic by 2023 was a hoax</h4>
 
                     </div>
                     <div class="col-md-3">
-                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-fast-fashion-improve-reputation-repairs.webp" alt="" style="width: 100%;" class="mt-md-3">
-                        <h4>Fast fashion seeks to improve its reputation through repairs</h4>
+                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-fast-fashion-improve-reputation-repairs.webp" alt="" style="width: 100%;" class="mt-md-3 p-4">
+                        <h4 class="p-4">Fast fashion seeks to improve its reputation through repairs</h4>
                     </div>
 
                     <div class="col-md-3">
-                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mongolia-cooperation-us-rare-earths.webp" alt="" style="width: 100%;" class="mt-md-3">
-                        <h4>On Wishington visit, Mongolia's PM says will expand cooperation with the US on rare earths</h4>
+                        <img src="https://www.ciobulletin.com/assets/home_image/ciobulletin-mongolia-cooperation-us-rare-earths.webp" alt="" style="width: 100%;" class="mt-md-3 p-4">
+                        <h4 class="p-4">On Wishington visit, Mongolia's PM says will expand cooperation with the US on rare earths</h4>
                     </div>
 
                 </div>
@@ -692,11 +808,11 @@
      
     <!-- container 4 start-->
     <div class="container mt-md-4">
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
             <div class="col-md-10">
                 <img src="https://www.ciobulletin.com/assets/images/ciobulletin-ads-the-hampire.jpg" alt="" style="width: 100%;">
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col">
@@ -777,12 +893,12 @@
         </div>
 
         <div class="bg">
-            <div class="container ">
-                <div class="row justify-content-center">
+            <div class="container">
+                <div class="row ">
                     <div class="col">
-                        <div class="text  justify-content-center align-self-center">
-                            <h2 style="margin-left: 200px; color: white; padding-left: 40px; padding-top: 90px; flex-wrap: wrap;">Best Business Magazines and News Online</h2>
-                            <p style="color: white; font-size: 15px; padding-right: 200px; padding-left: 200px; padding-bottom: 1000px; padding-top: 5px; flex-wrap: wrap;">CIO Bulletin is the best US magazine and one of the most trusted online platforms to follow latest IT and business trends. A best entrepreneur and technology magazine, and a publisher of best news online, CIO Bulletin is a route map for business professionals and budding entrepreneurs. By working closely as a media partner, CIO Bulletin makes its clients understand what they can actually accomplish.</p>
+                        <div class="text mt-sm-5 ml-sm-5 pt-sm-5 pl-sm-3 justify-content-center align-self-center">
+                            <h2 style="margin-left: 100px; color: white; padding-top: 40px;">Best Business Magazines and News Online</h2>
+                            <p style="color: white; font-size: 15px; padding-right: 30px;">CIO Bulletin is the best US magazine and one of the most trusted online platforms to follow latest IT and business trends. A best entrepreneur and technology magazine, and a publisher of best news online, CIO Bulletin is a route map for business professionals and budding entrepreneurs. By working closely as a media partner, CIO Bulletin makes its clients understand what they can actually accomplish.</p>
                         </div>
                     </div>
                 </div>
@@ -1061,117 +1177,122 @@
                 </div>
             </div>
            
-           <div class="container">
-            <div class="row justify-content-between footer">
-                
-                <div class="col-md-2 mt-md-5">
-                    <h5>Social Media</h5>
-                    <div class="socialmedia">
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        <a href="">Linkedin</a>
-                    </div>
-                    <div class="socialmedia">
-                        <i class="fa-brands fa-x-twitter"></i>
-                        <a href="">X.com</a>
-                    </div>
-                    <div class="socialmedia">
-                        <i class="fa-brands fa-instagram"></i>
-                        <a href="">Instagram</a>
-                    </div>
-                    <div class="socialmedia">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <a href="">Facebook</a>
-                    </div>
-                    <div class="socialmedia">
-                        <i class="fa-brands fa-youtube"></i>
-                        <a href="">Youtube</a>
-                    </div>
-                </div>
+                <div class="container">
+                    <div class="row justify-content-between footer">
 
-
-
-                <div class="col-md-2 mt-md-5">
-                    <h5>Editions</h5>
-                    <div class="edition">
-                        <a href="">Asia</a>
-                    </div>
-
-                    <div class="edition">
-                        <a href="">UK</a>
+            
                         
+                        <div class="col-md-2 col-6 mt-md-5">
+                            <h5>Social Media</h5>
+                            <div class="socialmedia">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                                <a href="">Linkedin</a>
+                            </div>
+                            <div class="socialmedia">
+                                <i class="fa-brands fa-x-twitter"></i>
+                                <a href="">X.com</a>
+                            </div>
+                            <div class="socialmedia">
+                                <i class="fa-brands fa-instagram"></i>
+                                <a href="">Instagram</a>
+                            </div>
+                            <div class="socialmedia">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <a href="">Facebook</a>
+                            </div>
+                            <div class="socialmedia">
+                                <i class="fa-brands fa-youtube"></i>
+                                <a href="">Youtube</a>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-2 col-6 mt-md-5">
+                            <h5>Editions</h5>
+                            <div class="edition">
+                                <a href="">Asia</a>
+                            </div>
+
+                            <div class="edition">
+                                <a href="">UK</a>
+                                
+                            </div>
+
+                            <div class="edition">
+                                <a href="">AUS</a>
+                            </div>
+                            
+                            <div class="edition">
+                                <a href="">USA</a>
+                            </div>
+
+                            <div class="edition">
+                                <a href="">Middle East</a>
+                            </div>
+
+                            <div class="edition">
+                                <a href="">Europe</a>
+                            </div>
+
+                            <div class="edition">
+                                <a href="">Africa</a>
+                            </div>
+
+                        
+
+                        </div>
+                        <div class="col-sm-3  mt-md-5 footer-img">
+                            <img src="https://www.ciobulletin.com/image/cb.png" alt="" class="img" style="width: auto;">
+
+                        </div>
+
+
+
+                        <div class="col-md-2 col-6 mt-md-5">
+                            <h5>Quicklinks</h5>
+                            <div class="quicklinks">
+                                <a href="">About Us</a>
+                            </div>
+
+                            <div class="quicklinks">
+                                <a href="">Contact Us</a>
+                            </div>
+
+                            <div class="quicklinks">
+                                <a href="">Send Us Feedback</a>
+                            </div>
+
+                            <div class="quicklinks">
+                                <a href="">Advertise</a>
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="col-md-2 col-6 mt-md-5">
+                            <h5>Magazines</h5>
+                            <div class="magazines">
+                                <a href="">Monthly</a>
+                            </div>
+
+                            <div class="magazines">
+                                <a href="">Yearly</a>
+                            </div>
+
+                            <div class="magazines">
+                                <a href="">Asia</a>
+                            </div>
+
+                            
+
+                        </div>
+
                     </div>
 
-                    <div class="edition">
-                        <a href="">AUS</a>
-                    </div>
-                    
-                    <div class="edition">
-                        <a href="">USA</a>
-                    </div>
-
-                    <div class="edition">
-                        <a href="">Middle East</a>
-                    </div>
-
-                    <div class="edition">
-                        <a href="">Europe</a>
-                    </div>
-
-                    <div class="edition">
-                        <a href="">Africa</a>
-                    </div>
-
-                
-
-                </div>
-                <div class="col-2 mt-md-5 footer-img">
-                    <img src="https://www.ciobulletin.com/image/cb.png" alt="" class="img">
-
-                </div>
 
 
-
-                <div class="col-md-2 mt-md-5">
-                    <h5>Quicklinks</h5>
-                    <div class="quicklinks">
-                        <a href="">About Us</a>
-                    </div>
-
-                    <div class="quicklinks">
-                        <a href="">Contact Us</a>
-                    </div>
-
-                    <div class="quicklinks">
-                        <a href="">Send Us Feedback</a>
-                    </div>
-
-                    <div class="quicklinks">
-                        <a href="">Advertise</a>
-                    </div>
-
-                </div>
-
-
-
-                <div class="col-md-2 mt-md-5">
-                    <h5>Magazines</h5>
-                    <div class="magazines">
-                        <a href="">Monthly</a>
-                    </div>
-
-                    <div class="magazines">
-                        <a href="">Yearly</a>
-                    </div>
-
-                    <div class="magazines">
-                        <a href="">Asia</a>
-                    </div>
-
-                    
-
-                </div>
-
-            </div>
            </div>
         </div>
 
@@ -1182,29 +1303,45 @@
         <div class="row">
             <div class="col foot-head justify-content-center">
                 <h1 style="padding-right: 10px; color: rgb(199, 4, 4);">Latest</h1>
-                <h1>Magazines</h1>
+                <h1 style="">Magazines</h1>
             </div>
         </div>
-        <div class="container mags">
-            <div class="row">
-                <div class="col-md-2">
-                    <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-january-monthly-special-2024-cover.jpg" alt=""></a>
-                </div>
-                <div class="col-md-2">
-                    <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-applied-seals-n-a-inc-cover.jpg" alt=""></a>
-                </div>
-                <div class="col-md-2">
-                    <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-monthly-special-cover.jpg" alt=""></a>
-                </div>
-                <div class="col-md-2">
-                    <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-edition-2023-cover.jpg" alt=""></a>
-                </div>
-                <div class="col-md-2">
-                    <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-monthly-special-2023-cover-story.jpg" alt=""></a>
-                </div>
-                <div class="col-md-2">
-                    <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-november-edition-2023-cover-story.jpg" alt=""></a>
-                </div>
+        <div class="container-fluid mags d-flex justify-content-center align-items-center">
+            <div class="row" style="justify-content: space-evenly;">
+                
+                <div class="d-flex f-mags justify-content-center align-items-center" style="flex-wrap: wrap; justify-content: space-evenly;">
+                   
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px; ">
+                            <a href="" style="margin-right: 3px; "><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-january-monthly-special-2024-cover.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>  
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px;">
+                            <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-applied-seals-n-a-inc-cover.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px;">
+                            <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-monthly-special-cover.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px;">
+                            <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-edition-2023-cover.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px;">
+                            <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-monthly-special-2023-cover-story.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px;">
+                            <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-november-edition-2023-cover-story.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>
+
+
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px;">
+                            <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-october-special-edition-2023-cover-story.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>
+
+
+                        <div class="mr-md-3" style="border: 1px  solid white; padding: 8px;">
+                            <a href=""><img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-50%20most%20innovative%20companies%20to%20watch%202023-banpu%20public%20company-cover-story.jpg" alt="" style="height: 152px; width: 122px;"></a>
+                        </div>
+                       </div>
+                
+                
             </div>
         </div>
     
@@ -1216,8 +1353,8 @@
                     <p style="padding-right: 5px;">All rights reserved.</p>
                 </div>
 
-                <div class="col-md-4">
-                    <a href="" id="footer-ancher">Privacy Policy</a>
+                <div class="col-md-4 ml-auto">
+                    <a href="" id="footer-ancher">Privacy Policy</a>    
                     <a href="" id="footer-ancher">Disclaimer</a>
                     <a href="" id="footer-ancher">Reprint & Permission</a>
                     <a href="" id="footer-ancher">Pricing</a>
@@ -1258,6 +1395,30 @@
 
         </script>
 
+
+        <script>
+            const divContainer = document.querySelector('.dropdown-menu');
+            let isClicked = true;
+            let showOrHide = function(){
+                if(isClicked){
+                    divContainer.style.display = 'block';
+                    isClicked=false;
+                }else{
+                    divContainer.style.display = 'none';        
+                    isClicked=true;
+
+
+                }
+                
+            }
+        </script>
+
+        
+
+
+        
+
+
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
 <script  src="owl.js"></script> -->
@@ -1265,6 +1426,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.0.9/dist/micro-slider.min.js"></script>
 <script  src="owl.js"></script>
+
 
 
 </body>
