@@ -134,10 +134,12 @@ a{
     border-top: none;
     border-bottom: 1px dotted black;
 }
-.four{
+.search-bar{
     display: flex;
     /* display: inline-block; */
     margin-top: 30px;
+    
+
 }
 #search-icon button:hover{
     background-color: gray;
@@ -160,7 +162,41 @@ a{
     width: 100%;
     border: 2px solid;
     border-top: 10px solid;
-    /* margin-left: 2px; */
+   
+}
+
+
+
+/* @media screen and (max-width:1440px) {
+    .second-side-bar{
+
+        margin-left: 30px;
+    }
+    
+} */
+
+
+@media screen and (max-width:1024px) {
+
+    .search-bart {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .video{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .second-side-bar{
+      margin-left: 60px;
+    }
+    
 }
 
 
@@ -211,6 +247,15 @@ a{
 }
 
 
+@media screen and (max-width:320px) {
+
+    .copy-right i{
+        padding-left: -15px;
+    }
+    
+}
+
+
 @media screen and (max-width:425px) {
 
     .cont2{
@@ -251,6 +296,17 @@ a{
     
 }
 
+@media screen and (max-width:1024) {
+    .search-bar{
+        width: 100px;
+    }
+    
+}
+
+@media screen and (max-width:) {
+    
+}
+
 /* @media screen and (max-width:464px) {
 
     #sponsered-news-img img p{
@@ -278,9 +334,15 @@ a{
     background-color: black;
     color: white;
     padding-bottom: 30px;
+    margin-left: 7px;
+
+    /* margin-top: -50px; */
 
     /* border: 1px solid; */
 }
+/* .video iframe{
+   margin-right: 50px;
+} */
 .second-side-bar button{
     padding: 10px;
     padding-left: 15px;
@@ -370,7 +432,11 @@ img{
 }
 
 
-
+.text{
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
 
 .navbar {
     list-style: none;
@@ -439,10 +505,51 @@ img{
     display: flex;
 }
 
+
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    color: white;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text h2{
+    position: absolute;
+    /* top: 25%; */
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .bg{
-    background-image: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
-    height: 55vh;
-    /* width: 100vh; */
+    background: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
+
+    /* height: 40rem;
+    background-size: cover;
+    background-repeat: round;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 30%; */
+    /* padding-top: 10%; */
+    margin-left: 140px;
+    /* margin-right: 500px; */
+    height: 60vh;
+    width: 81.3vw;
+
+    
     flex-wrap: wrap;
     position: relative;
     background-position: center;
@@ -450,6 +557,11 @@ img{
     background-size: cover;
     transition: all;
     
+}
+
+.bg h2 p{
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -531,6 +643,170 @@ html,body{
     display: none;
 }
 
+
+@media screen and (max-width:1440px) {
+
+
+    .bg{
+        height: 40rem;
+    background-size: cover;
+    padding-right: 30px;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    padding-top: 10%;
+    }
+
+
+    .text h2{
+        padding-left: 140px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text p{
+        /* padding-left: 60px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .bg{
+        height: 40rem;
+    background-size: cover;
+    padding-right: 30px;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    padding-top: 10%;
+    }
+
+
+    .text h2{
+        padding-left: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text p{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .logo{
+        /* padding-right: 30px; */
+        margin-right: 80px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+
+    .bg{
+        height: 40rem;
+    background-size: cover;
+    padding-right: 30px;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    padding-top: 10%;
+    }
+
+
+    .text h2{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text p{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+
+
+    .bg{
+        height: 40rem;
+        padding-top: 120px;
+        padding-bottom: 50px;
+    background-size: cover;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    /* padding-top: 10%; */
+    }
+
+    .text h2{
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .text p{
+        /* padding-left: 150px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+
+
+    .bg{
+        height: 63rem;
+        padding-top: 160px;
+        padding-bottom: 100px;
+    background-size: cover;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    /* padding-top: 10%; */
+    }
+
+    .text h2{
+        padding-top: 50px;
+        padding-left: 10px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .text p{
+        /* padding-left: 150px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
 @media screen and (max-width:320) {
 
     .slider1{
@@ -543,6 +819,20 @@ html,body{
 
     .slider-item {
         width:100%;
+    }
+    
+}
+
+
+.btn:active{
+    border-color: white;
+}
+
+@media screen and (max-width:768px) {
+
+    .img{
+        /* margin-right: 20px; */
+        padding-right: 30px;
     }
     
 }
