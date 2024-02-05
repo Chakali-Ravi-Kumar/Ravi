@@ -134,10 +134,12 @@ a{
     border-top: none;
     border-bottom: 1px dotted black;
 }
-.four{
+.search-bar{
     display: flex;
     /* display: inline-block; */
-    margin-top: 30px;
+    margin-top: 120px;
+    
+
 }
 #search-icon button:hover{
     background-color: gray;
@@ -160,7 +162,42 @@ a{
     width: 100%;
     border: 2px solid;
     border-top: 10px solid;
-    /* margin-left: 2px; */
+    margin-top: 50px;
+   
+}
+
+
+
+/* @media screen and (max-width:1440px) {
+    .second-side-bar{
+
+        margin-left: 30px;
+    }
+    
+} */
+
+
+@media screen and (max-width:1024px) {
+
+    .search-bart {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .video{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .second-side-bar{
+      margin-left: 60px;
+    }
+    
 }
 
 
@@ -211,6 +248,15 @@ a{
 }
 
 
+@media screen and (max-width:320px) {
+
+    .copy-right i{
+        padding-left: -15px;
+    }
+    
+}
+
+
 @media screen and (max-width:425px) {
 
     .cont2{
@@ -251,6 +297,110 @@ a{
     
 }
 
+@media screen and (max-width:1024) {
+    .search-bar{
+        width: 100px;
+    }
+    
+}
+
+@media screen and (max-width:425px) {
+    .banner{
+      margin-left: -30px;
+    }
+    .heading{
+      margin-left: -30px;
+
+    }
+    .video{
+        margin-right: 30px;
+    }
+    /* .hvdo{
+        margin-left: -0.1px;
+    } */
+    .border-btm{
+        margin-left: -90px;
+    }
+    .second-side-bar{
+        padding-left: 30px;
+    }
+    .spnews{
+        margin-right: 30px;
+    }
+    section{
+        margin-left: -30px;
+
+    }
+    .top-news{
+        margin-left: -20px;
+    }
+    .carousel-item a img{
+        margin-left: -20px;
+    }
+    .carousel-item p-4{
+        margin-left: 30px;
+    }
+   
+    #bussnews img{
+        margin-right: 20px;
+    }
+    .link-margin{
+        margin-right: 30px;
+    }
+    
+}
+
+
+@media screen and (max-width:425px) {
+
+    .cimgprt  {
+       margin-left: -25px;
+     }
+     .bussnews{
+        margin-right: 20px;
+     }
+     .hiltnews{
+        margin-left: -1px;
+     }
+     .technews{
+        margin-left: -1px;
+
+     }
+     .reccnews{
+        margin-left: -1px;
+
+
+     }
+     .anilogos{
+        margin-left: -1px;
+
+
+     }
+     .footlinks{
+        margin-left: -1px;
+
+     }
+     /* .second-side-bar{
+        padding-left: 10px;
+     } */
+    
+}
+
+/* @media screen and (max-width:768px) {
+    .first-links{
+        padding-right: 100px;
+    }
+    
+} */
+
+@media screen and (max-width:2560px) {
+
+    .copyrt-rt{
+        padding-left: -300px;
+    }
+    
+}
+
 /* @media screen and (max-width:464px) {
 
     #sponsered-news-img img p{
@@ -277,10 +427,29 @@ a{
     height: 100%;
     background-color: black;
     color: white;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
+    margin-left: 7px;
+    /* margin-bottom: -40px; */
+
+    /* margin-top: -50px; */
 
     /* border: 1px solid; */
 }
+
+/* .videosection{
+    margin-top: -100px;
+} */
+.hvdo{}
+
+
+.border-btm{
+    margin-top: -100px;
+
+
+}
+/* .video iframe{
+   margin-right: 50px;
+} */
 .second-side-bar button{
     padding: 10px;
     padding-left: 15px;
@@ -370,7 +539,11 @@ img{
 }
 
 
-
+.text{
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
 
 .navbar {
     list-style: none;
@@ -439,10 +612,58 @@ img{
     display: flex;
 }
 
+
+.banner-card{
+    position: relative;
+}
+.banner-card img{
+    max-width: 100%;
+    height: auto;
+}
+.banner-text{
+    position: absolute;
+    top: 25%;
+    color: white;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text h2{
+    position: absolute;
+    /* top: 25%; */
+    color: white;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* @media screen and (max-width:768px) {
+    .bg{
+    background: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
+        height: 30rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 10%;
+    }
+    
+} */
+
+
+.info h1 p{
+    margin-bottom: 400px;
+}
+
 .bg{
-    background-image: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
-    height: 55vh;
-    /* width: 100vh; */
+    background: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
+
+    
+    margin-left: 140px;
+    height: 60vh;
+    /* width: 81.3vw; */
+
+    
     flex-wrap: wrap;
     position: relative;
     background-position: center;
@@ -451,6 +672,11 @@ img{
     transition: all;
     
 }
+
+/* .bg h2 p{
+    justify-content: center;
+    align-items: center;
+} */
 
 
 @keyframes slide{
@@ -530,6 +756,170 @@ html,body{
 .menu{
     display: none;
 }
+
+
+@media screen and (max-width:1440px) {
+
+
+    .bg{
+        height: 40rem;
+    background-size: cover;
+    padding-right: 30px;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    padding-top: 10%;
+    }
+
+
+    .text h2{
+        padding-left: 140px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text p{
+        /* padding-left: 60px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:1024px) {
+
+
+    .bg{
+        height: 40rem;
+    background-size: cover;
+    padding-right: 30px;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    padding-top: 10%;
+    }
+
+
+    .text h2{
+        padding-left: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text p{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .logo{
+        /* padding-right: 30px; */
+        margin-right: 80px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+
+    .bg{
+        height: 40rem;
+    background-size: cover;
+    padding-right: 30px;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    padding-top: 10%;
+    }
+
+
+    .text h2{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text p{
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+
+
+    .bg{
+        height: 40rem;
+        padding-top: 120px;
+        padding-bottom: 50px;
+    background-size: cover;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    /* padding-top: 10%; */
+    }
+
+    .text h2{
+        padding-left: 0;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .text p{
+        /* padding-left: 150px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+
+
+    .bg{
+        height: 63rem;
+        padding-top: 160px;
+        padding-bottom: 100px;
+    background-size: cover;
+    /* background-repeat: round; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30%; */
+    /* padding-top: 10%; */
+    }
+
+    .text h2{
+        padding-top: 50px;
+        padding-left: 10px;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    
+    .text p{
+        /* padding-left: 150px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 
 @media screen and (max-width:320) {
 
@@ -680,6 +1070,32 @@ html,body{
     color: white;
     text-decoration-color: white;
 }
+
+
+@media screen and (max-width:425px) {
+    .second-side-bar{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+
+    .second-side-bar h5{
+        padding-top: 20px;
+    }
+
+
+    
+}
+
+/* @media screen and (max-width:2560px) {
+
+    .search-bar{
+        margin-right: -290px;
+    }
+    
+} */
 
 
 /* body::-webkit-scrollbar {
@@ -846,3 +1262,68 @@ section {
 .slider5 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-monthly-special-2023-cover-story.jpg'); }
 /* .superHero6 {background: url(slider.jpg); border-radius: 50px !important;}
 .superHero7 {background: url(img/superhero7.jpg); border-radius: 50px !important;} */
+
+
+
+.background-img {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 70vh;
+    background: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg') center/cover no-repeat;
+}
+
+.content-bg {
+    grid-column: 3 / span 6; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+   
+}
+
+@media screen and (max-width:768px) {
+
+    .background-img {
+    height: 70rem;
+
+    }
+
+    
+}
+
+@media screen and (max-width:425px) {
+
+    .background-img {
+    height: 100rem;
+
+    }
+
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .hiltnews-imgs{
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .background-img{
+        margin-right: 50px;
+    }
+    
+}
+/* @media screen and (max-width:375px) {
+    .background-img{
+        margin-left: 30px;
+    }
+    
+} */
+
+
+/* hiltnews-imgs */
