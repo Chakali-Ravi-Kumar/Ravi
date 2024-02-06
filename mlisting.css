@@ -1,0 +1,11 @@
+.double-border{
+    height: 1px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+.cover-story{
+    display: flex;
+}
+.hero-section{
+    background-color: black;
+}
