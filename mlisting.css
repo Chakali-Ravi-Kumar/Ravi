@@ -42,10 +42,33 @@
     border-left: 1px solid black;
     border-right: 1px solid black;
 
-    margin-top: -300px;
-
+    
 
 }
+
+
+
+
+@media screen and (max-width:768px) {
+    .side-bar-head{
+        margin-top: 250px;
+        margin-left: -400px;
+        justify-content: center;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:425px) {
+
+    .side-bar-head{
+        margin-top: 30px;
+        margin-left: 500px;
+    }
+    
+}
+
+
 /* side bar */
 
 
