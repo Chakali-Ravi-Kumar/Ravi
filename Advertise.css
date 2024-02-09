@@ -1,0 +1,177 @@
+.background-img {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 400px;
+    background: url('https://www.ciobulletin.com/image/contact-bg.png') center/cover no-repeat;
+}
+.background-img h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-bg {
+    grid-column: 3 / span 6; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+   
+}
+
+.address-section{
+    display: flex;
+    font-size: xx-large;
+    
+}
+.address-text h5{
+    font-size: xx-large;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+.address-text p{
+    font-size: medium;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+
+
+.phone-section{
+    display: flex;
+    font-size: xx-large;
+    
+}
+.phone-text h5{
+    font-size: xx-large;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+.phone-text p{
+    font-size: medium;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+
+.email-section{
+    display: flex;
+    font-size: xx-large;
+    
+}
+.email-text h5{
+    font-size: xx-large;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+.email-text p{
+    font-size: medium;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+
+.map-section{
+    border: 1px solid black;
+    height: 400px;
+}
+
+.unordered-list li h6{
+    font-size: x-large;
+}
+
+.form-below-part h5{
+    font-size: xx-large;
+    margin-top: 160px;
+}
+
+.form-below-part2 h5{
+    font-size: xx-large;
+    /* margin-top: 160px; */
+}
+
+
+.side-bar{
+    border-top: 10px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+
+    /* margin-top: 300px; */
+}
+
+.second-side-bar{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+   
+}
+
+.Subscribe{
+    background-color: rgb(94, 89, 89);
+    color: white;
+    padding: 6px;
+}
+.Subscribe:hover{
+    background-color: rgb(56, 53, 53);
+    box-shadow: none;
+}
+
+#ancher-heading{
+    color: black;
+}
+
+.double-border2{
+    height: 1px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+#underline{
+    height: 1px;
+    border-top: none;
+    border-bottom: 1px dotted black;
+}
+
+@media screen and (max-width:425px) {
+    .map-section{
+        margin-right: 25px;
+    }
+    
+
+    @media screen and (max-width:425px) {
+        .form{
+            margin-left: 15px;
+       
+        }
+
+        .form input{
+           margin-top: 20px;
+       
+        }
+        .form textarea{
+           margin-top: 20px;
+
+        }
+        
+    }
+
+    .side-bar{
+        margin: 15px 15px;
+    }
+
+    .second-side-bar{
+        margin: 15px 15px;
+
+    }
+
+    .recc-news{
+        margin-left: -50px;
+    }
+}

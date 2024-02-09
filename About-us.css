@@ -1,0 +1,76 @@
+html,body{
+    
+    padding-left: 0;
+     overflow-x: hidden;
+     max-width: 100%;
+     overscroll-behavior: none;
+     padding-right: 0;
+     justify-content: center;
+     margin: 0;
+     margin-left: 0;
+     margin-right: 0;
+ 
+ }
+
+ .About-us-info{
+    border: 1px solid black;
+ }
+
+ .side-bar{
+    border-top: 10px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.second-side-bar{
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+   
+}
+
+.Subscribe{
+    background-color: rgb(94, 89, 89);
+    color: white;
+    padding: 6px;
+}
+.Subscribe:hover{
+    background-color: rgb(56, 53, 53);
+    box-shadow: none;
+}
+
+#ancher-heading{
+    color: black;
+}
+
+.double-border2{
+    height: 1px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+#underline{
+    height: 1px;
+    border-top: none;
+    border-bottom: 1px dotted black;
+}
+
+@media screen and (max-width:425px) {
+
+    .margin-right{
+        margin-right: 10px;
+    }
+    .About-us-info{
+        margin-top: 30px;
+    }
+    .side-bar{
+        margin-top: 30px;
+
+    }
+    .search-bar{
+        margin-top: 30px;
+
+    }
+}
+
