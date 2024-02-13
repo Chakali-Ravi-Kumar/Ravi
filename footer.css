@@ -1,0 +1,74 @@
+.footer{
+    background-color: black;
+    color: white;
+}   
+
+.footer a{
+    color: white;
+}
+.foot-head{
+    display: flex;
+    padding-right: 5px;
+}
+.border-top #border{
+    border-top: 4px solid rgb(161, 158, 158);
+    padding-top: 1px;
+}
+
+#footer-ancher{
+    color: white;
+}
+
+@media screen and (max-width: 766px) {
+    .footer{
+        text-align: center;
+    }
+    .footer-img img{
+        text-align: center;
+    }
+
+}
+
+.border{
+    margin-top: 1px;
+}
+.img{
+    width: auto;
+}
+
+.second-foot{
+    background-color: black;
+    margin-top: 1px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.Ltst-Mags{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.Ltst-Mags:hover{
+    background-color: transparent;
+}
+.foot-mags a img{
+    height: 100px;
+    width: 60px;
+}
+
+.mags{
+    background-color: black;
+    padding-top: 60px;
+   
+}
+.copy-right{
+    display: flex;
+}
+
+
+.text{
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}

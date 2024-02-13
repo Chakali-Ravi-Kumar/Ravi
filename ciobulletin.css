@@ -1,9 +1,8 @@
 
-
 *{
     padding: 0;
     margin: 0;
-    /* overflow: -moz-hidden-unscrollable; */
+   
 }
 
 .logo{
@@ -18,16 +17,15 @@
     border-bottom: 1px dotted black;
     margin-bottom: 0;
     margin-top: 0;
-
     overflow: hidden;   
-    /* margin-bottom: 0; */
+
 }
 .uselect{
     border: none;
 }
 .header{
     display: flex;
-    /* justify-content: space-around; */
+    
 
 }
 .tselect{
@@ -36,36 +34,6 @@
 
     
 }
-
-/* dropdown */
-
-
-.even-space{
-    justify-content: space-evenly;
-}
-
-.content{
-    /* display: block; */
-    display: none;
-    /* display: flex; */
-    /* padding-top: 30px; */
-    /* margin-top: 50px; */
-}
-
-.content a{
-    display: block;
-}
-
-.tselect:hover .content{
-    display: block;
-}
-
-/* dropdown */
-
-
-
-
-
 
 .tselect a{
     display: flex;
@@ -85,7 +53,7 @@
 }
 .iselsct{
     display: flex;
-    /* align-items: center; */
+    
 
 }
 .iselsct a{
@@ -93,8 +61,6 @@
     align-items: center;
     text-decoration: none;
     color: black;
-
-
 }
 .header{
     display: flex;
@@ -111,11 +77,6 @@ a{
     color: black;
     
 }
-/* .col header{
-    display: flex;
-    align-items: center;
-} */
-
 
 .banner img{
     margin-top: 30px;
@@ -134,55 +95,20 @@ a{
     border-top: none;
     border-bottom: 1px dotted black;
 }
-.search-bar{
-    display: flex;
-    /* display: inline-block; */
-    margin-top: 120px;
-    
 
-}
-#search-icon button:hover{
-    background-color: gray;
-    color: white;
-}
 #a-text-black{
     color: black;
 }
 
-
-/* .socialmedia{
-    display: flex;
-    
-    justify-content: space-around;
-    align-items: start;
-} */
-
-.side-bar{
-    /* height: 60px; */
-    width: 100%;
-    border: 2px solid;
-    border-top: 10px solid;
-    margin-top: 50px;
-   
+.video{
+    margin-bottom: 20px;
+}
+.second-side-bar{
+    margin-bottom: 50px;
 }
 
-
-
-/* @media screen and (max-width:1440px) {
-    .second-side-bar{
-
-        margin-left: 30px;
-    }
-    
-} */
-
-
-@media screen and (max-width:1024px) {
-
-    .search-bart {
-        display: block;
-    }
-    
+.second-side-bar input{
+    width: 100%;
 }
 
 @media screen and (max-width:768px) {
@@ -193,60 +119,14 @@ a{
     
 }
 
-@media screen and (max-width:768px) {
-    .second-side-bar{
-      margin-left: 60px;
-    }
-    
-}
-
-
-@media screen and (max-width:768px) {
-
-    .search-bar{
-        justify-content: center;
-        max-width: 400px;
-
-        /* padding-left: 30px; */
-        /* width: 400px; */
-    }
-    
-}
-
-
-@media screen and (max-width:320px) {
-
-    .search-bar{
-        padding-left: 40px;
-        padding-right: 40px;
-        /* margin-left: 20px; */
-        /* width: 400px; */
-    }
-    
-}
-
 @media screen and (max-width:425px) {
 
     .video{
        height: 220px;
-        /* margin-left: 20px; */
-        /* width: 400px; */
+       
     }
     
 }
-
-
-@media screen and (max-width:425px) {
-
-    .search-bar{
-        margin-top: 10px;
-        margin-bottom: 40px;
-        /* margin-left: 20px; */
-        /* width: 400px; */
-    }
-    
-}
-
 
 @media screen and (max-width:320px) {
 
@@ -265,44 +145,16 @@ a{
     
 }
 
-
-@media screen and (max-width:576px) {
-
-    .side-bar{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 10px;
-        
-    }
-    
-}
-
 @media screen and (max-width: 1024px) {
 
     .Others hr{
         margin-top: 80px;
 
-        /* padding-top: 30px; */
     }
 
 }
 
-@media screen and (max-width:576px) {
 
-    .second-side-bar{
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 10px;
-    }
-    
-}
-
-@media screen and (max-width:1024) {
-    .search-bar{
-        width: 100px;
-    }
-    
-}
 
 @media screen and (max-width:425px) {
     .banner{
@@ -315,9 +167,7 @@ a{
     .video{
         margin-right: 30px;
     }
-    /* .hvdo{
-        margin-left: -0.1px;
-    } */
+    
     .border-btm{
         margin-left: -90px;
     }
@@ -380,18 +230,10 @@ a{
         margin-left: -1px;
 
      }
-     /* .second-side-bar{
-        padding-left: 10px;
-     } */
-    
+     
 }
 
-/* @media screen and (max-width:768px) {
-    .first-links{
-        padding-right: 100px;
-    }
-    
-} */
+
 
 @media screen and (max-width:2560px) {
 
@@ -401,20 +243,6 @@ a{
     
 }
 
-/* @media screen and (max-width:464px) {
-
-    #sponsered-news-img img p{
-        display: block;
-        width: 100%;
-    }
-    
-} */
-
-
-
-#sb-con-1{
-    
-}
 #sponsered-news-img{
     display: flex;
 }
@@ -422,55 +250,13 @@ a{
 .sd-bar-down-prt img{
     width: 100%;
 }
-.second-side-bar{
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    color: white;
-    padding-bottom: 50px;
-    margin-left: 7px;
-    /* margin-bottom: -40px; */
-
-    /* margin-top: -50px; */
-
-    /* border: 1px solid; */
-}
-
-/* .videosection{
-    margin-top: -100px;
-} */
-.hvdo{}
-
 
 .border-btm{
     margin-top: -100px;
 
 
 }
-/* .video iframe{
-   margin-right: 50px;
-} */
-.second-side-bar button{
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    background-color: rgb(58, 55, 55);
-    color: white;
-    
-}
 
-.second-side-bar button:hover{
-    background-color: rgb(37, 36, 36);
-}
-
-.second-side-bar button:active{
-    
-    border-color: gray;
-}
 
 .top-news{
     width: 100%;
@@ -482,134 +268,6 @@ a{
 }
 img{
     width: 100%;
-}
-
-.footer{
-    background-color: black;
-    color: white;
-}   
-
-.footer a{
-    color: white;
-}
-
-.border-top #border{
-    border-top: 4px solid rgb(161, 158, 158);
-    padding-top: 1px;
-}
-
-
-.foot-head{
-    display: flex;
-    padding-right: 5px;
-}
-
-.second-foot{
-    background-color: black;
-    margin-top: 1px;
-    color: white;
-    padding-top: 30px;
-    padding-bottom: 5px;
-}
-
-.Ltst-Mags{
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-.Ltst-Mags:hover{
-    background-color: transparent;
-}
-.foot-mags a img{
-    height: 100px;
-    width: 60px;
-}
-
-.mags{
-    background-color: black;
-    padding-top: 60px;
-   
-}
-.copy-right{
-    display: flex;
-}
-
-.navbar i{
-    margin-top: -23px;
-}
-
-
-.text{
-    justify-content: center;
-    align-items: center;
-    text-wrap: wrap;
-}
-
-.navbar {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar select {
-    border: none;
-}
-
-.navbar li {
-    margin-right: 10px;
-    
-}
-
-.navbar a.btn {
-    text-decoration: none; 
-    color: white;
-}
-
-.navbar a{
-    color: black;
-    text-decoration: none;
-}
-.navbar i{
-    padding-bottom: 5px;
-}
-
-#footer-ancher{
-    color: white;
-}
-
-.submenu li a:hover{
-        display: block;
-        visibility: visible;
-}
-.navbar .submenu li{
-
-    position: absolute;
-    /* visibility: hidden; */
-    margin-top: 100px;
-    display: block;
-}
-
-.dropdown:hover > .dropdown-menu{
-    display: block;
-
-
-}
-
-.background-img h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.mask .heading{
-
-    justify-content: center;
-    align-items: center;
-
-}
-.dropdown:hover > .dropdown-menu
-{
-    display: flex;
 }
 
 
@@ -638,98 +296,16 @@ img{
     align-items: center;
 }
 
-/* @media screen and (max-width:768px) {
-    .bg{
-    background: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
-        height: 30rem;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        padding: 10%;
-    }
-    
-} */
-
 
 .info h1 p{
     margin-bottom: 400px;
 }
 
-.bg{
-    background: url("https://www.ciobulletin.com/image/cb-website-banner03.jpg");
-
-    
-    margin-left: 140px;
-    height: 60vh;
-    /* width: 81.3vw; */
-
-    
-    flex-wrap: wrap;
-    position: relative;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: all;
-    
-}
-
-/* .bg h2 p{
-    justify-content: center;
-    align-items: center;
-} */
-
-
-@keyframes slide{
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
-}
-
-.logos{
-
-    overflow: hidden;
-    padding: 60px 0;
-    
-
-}
-.logos-slide img{
-    height: 100px;
-    width: 150px;
-    margin: 0 40px;
-}
-.logos-slide{
-    white-space: nowrap;
-    animation: 15s slide infinite linear;
-}
-
-/* .logos-slide a img:hover{
-    height: 300%;
-    width: 150px;
-     height: 130px;
-   width: 150px;
-    transition: ease;
-    position: absolute;
-} */
-
 html,body{
-    /* max-width: 100vw; */
-    /* min-width: 100%; */
-   /* width: 100vh; */
+    
    padding-left: 0;
-   /* white-space: nowrap; */
-
-    /* overflow: auto; */
-
-
-
     overflow-x: hidden;
     max-width: 100%;
-
-
-
     overscroll-behavior: none;
     padding-right: 0;
     justify-content: center;
@@ -748,176 +324,19 @@ html,body{
 }
 
 
-
-/* .menu{
-    display: none;
-} */
-
 .menu{
     display: none;
 }
 
 
-@media screen and (max-width:1440px) {
-
-
-    .bg{
-        height: 40rem;
-    background-size: cover;
-    padding-right: 30px;
-    /* background-repeat: round; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 30%; */
-    padding-top: 10%;
-    }
-
-
-    .text h2{
-        padding-left: 140px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .text p{
-        /* padding-left: 60px; */
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width:1024px) {
-
-
-    .bg{
-        height: 40rem;
-    background-size: cover;
-    padding-right: 30px;
-    /* background-repeat: round; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 30%; */
-    padding-top: 10%;
-    }
-
-
-    .text h2{
-        padding-left: 80px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .text p{
-        justify-content: center;
-        align-items: center;
-    }
-}
 
 @media screen and (max-width:320px) {
 
     .logo{
-        /* padding-right: 30px; */
+    
         margin-right: 80px;
     }
     
-}
-
-@media screen and (max-width:768px) {
-
-
-    .bg{
-        height: 40rem;
-    background-size: cover;
-    padding-right: 30px;
-    /* background-repeat: round; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 30%; */
-    padding-top: 10%;
-    }
-
-
-    .text h2{
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .text p{
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-@media screen and (max-width:425px) {
-
-
-    .bg{
-        height: 40rem;
-        padding-top: 120px;
-        padding-bottom: 50px;
-    background-size: cover;
-    /* background-repeat: round; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 30%; */
-    /* padding-top: 10%; */
-    }
-
-    .text h2{
-        padding-left: 0;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .text p{
-        /* padding-left: 150px; */
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-
-@media screen and (max-width:375px) {
-
-
-    .bg{
-        height: 63rem;
-        padding-top: 160px;
-        padding-bottom: 100px;
-    background-size: cover;
-    /* background-repeat: round; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* padding: 30%; */
-    /* padding-top: 10%; */
-    }
-
-    .text h2{
-        padding-top: 50px;
-        padding-left: 10px;
-        margin-top: 20px;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
-    
-    .text p{
-        /* padding-left: 150px; */
-        justify-content: center;
-        align-items: center;
-    }
 }
 
 
@@ -926,11 +345,6 @@ html,body{
     .slider1{
         width: 100% ;
     }
-    
-}
-
-@media screen and (max-width:320px) {
-
     .slider-item {
         width:100%;
     }
@@ -938,14 +352,9 @@ html,body{
 }
 
 
-.btn:active{
-    border-color: white;
-}
-
 @media screen and (max-width:768px) {
 
     .img{
-        /* margin-right: 20px; */
         padding-right: 30px;
     }
     
@@ -967,7 +376,7 @@ html,body{
         display: block;
         margin-left: 30px;
         border: 4px black;
-        /* color: transparent; */
+     
     }
     .menu:active > .dropdown-menu
 {
@@ -975,9 +384,6 @@ html,body{
 }
 }
 
-.nav-toggle{
-    /* display: none; */
-}
 
 @media screen and (max-width: 766px) {
     .nav-toggle {
@@ -990,13 +396,7 @@ html,body{
         left: -100%;
         width: 100%;
         display: none;
-        /* top: 100%;
-       
-        padding-block: 20px;
-        left: -100%;
-        transition: left 0.3s ease;  */
         
-        /* Adding transition for smooth animation */
     }
     .nav-links.active {
         left: 0;
@@ -1006,65 +406,30 @@ html,body{
         flex-direction: column;
     }
 
-    
-
     .navbar ul{
-        /* left: -100%; */
         flex-direction: column;
 
     }
     .navbar li a{
-        /* display: none   ; */
         flex-direction: column;
-        /* left: -100%; */
 
     }
     .navbar select{
-        /* display: none; */
         flex-direction: column;
-        /* left: -100%; */
 
     }
     .navbar a.btn{
-        /* display: none; */
         flex-direction: column;
-        /* left: -100%; */
 
 
     }
-    .footer{
-        text-align: center;
-    }
-    .footer-img img{
-        text-align: center;
-        /* align-items: center; */
-    }
+   
     .navbar {
         display: block;
-        /* flex-direction: column; */
         width: 100%;
-        /* display: none; */
-        /* align-items: center; */
     }
     
 }
-
-/* .dropdown-menu{
-    display: none;
-    
-}
-
-
-.dropdown-menu-div > .dropdown-menu-ul {
-    visibility: hidden;
-}
-
-
-.dropdown-menu-div:focus-within > .dropdown-menu-ul {
-    visibility: visible;
-}
- */
-
 
 .active a h5{
     color: white;
@@ -1072,193 +437,6 @@ html,body{
 }
 
 
-@media screen and (max-width:425px) {
-    .second-side-bar{
-        margin-left: 50px;
-        margin-right: 50px;
-    }
-    
-}
-@media screen and (max-width:425px) {
-
-    .second-side-bar h5{
-        padding-top: 20px;
-    }
-
-
-    
-}
-
-/* @media screen and (max-width:2560px) {
-
-    .search-bar{
-        margin-right: -290px;
-    }
-    
-} */
-
-
-/* body::-webkit-scrollbar {
-    display: none;
-
-  } */
 
 
 
-
-/* .text{
-    justify-content: center;
-    text-align: center;
-    margin-top: 70px;
-    align-items: center;
-    width: 900px;
-    margin-left: 70px;
-    padding-left: 50px;
-} */
-
-
-
-
-
-
-/* .background-img{
-
-    background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg');
-    height: 100%;
-    width: 100%;
-} */
-
-/* .background-img{
-    background-image: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg');
-} */
-
-
-
-
-/* .Ltst-Mags a img{
-    width: 100%;
-} */
-
-/* #search-icon{
-    
-    border: 1px solid ;
-    height: 29.2px;
-    width: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-}
-
-#search-icon:hover{
-    background-color: gray;
-    color: white;
-} */
-
-
-
-.section-header {
-    display: block;
-    margin-top: 20px;
-    position: relative;
-    text-align: center;
-}
-
-section {
-    padding-top: 50px;
-    overflow: hidden;
-    position: relative;
-}
-
-/* a, a:link, a:visited {
-    color: white;
-    text-decoration: none;
-} */
-
-.Carousel-slider {
-    height: 560px;
-    position: relative;
-    width: 100%;
-}
-
-.Carousel-slider.fullwidth {
-    height: 500px;
-}
-
-.Carousel-slider.fullwidth .slider-item {
-    height: 450px;
-    line-height: 480px;
-    width: 100%
-}
-
-.slider-wrapper {
-    overflow: hidden;
-    position: relative;
-    transform-style: preserve-3d;
-    /* transform-origin: 0 50%; */
-	perspective: 800px  !important;
-}
-
-.slider-item {
-    box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.12);
-    display: none;
-    height: 414px;
-    /* height: 100%; */
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 340px;   
-    border-radius: 0%;
-    /* width: 100%; */
-    cursor: pointer;
-	/* border: 5px solid #ffc107; */
-}
-
-.indicators {
-	top: 0;
-    left: 50%;
-    padding: 0;
-    list-style-type: none;
-    margin: 40px 0 0 -77px;
-    position: absolute;
-}
-
-.indicators li {
-    color: #255f8b;
-    float: left;
-    height: 16px;
-    margin-right: 8px;
-    text-align: center;
-    width: 16px;
-}
-
-.indicators li:last-child {margin: 0;}
-.indicators a {
-    background: #00416a;
-    border-radius: 8px;
-    display: inline-block;
-    height: 16px;
-    width: 16px;
-}
-
-.indicators .active a {
-	background: #e4e5e6;
-
-}       
-
-
-
-.slider1{
-    width: 340px;
-    height: 414px;
-}
-
-
-.slider1 {background-image: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-january-monthly-special-2024-cover.jpg'); }
-.slider2 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-applied-seals-n-a-inc-cover.jpg'); }
-.slider3 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-monthly-special-cover.jpg'); }
-.slider4 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-edition-2023-cover.jpg'); }
-.slider5 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-monthly-special-2023-cover-story.jpg'); }
-/* .superHero6 {background: url(slider.jpg); border-radius: 50px !important;}
-.superHero7 {background: url(img/superhero7.jpg); border-radius: 50px !important;} */
