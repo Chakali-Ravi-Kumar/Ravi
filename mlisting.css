@@ -78,6 +78,12 @@ html,body{
     border-top: 1px solid dotted black;
 }
 
+#underline{
+    height: 1px;
+    border-top: none;
+    border-bottom: 1px dotted black;
+}
+
 /* side bar */
 .side-bar{
     border-top: 10px solid black;
@@ -86,14 +92,30 @@ html,body{
     border-right: 1px solid black;
     margin-bottom: 20px;
 }
+
+
 /* side bar */
 
+img{
+    width: 100%;
+}
+
+
+.search-bar input{
+    width: 100%;
+    height: 45px;
+}
+
+.search-bar button{
+    width: 50px;
+}
 
 
 /* second sidebar */
 .second-side-bar{
     background-color: black;
     color: white;
+    width: 100%;
     padding-bottom: 10px;
     margin-top: 140px;
 }
@@ -162,3 +184,22 @@ html,body{
     
 }
 
+@media screen and (max-width:425px){
+    .img-part{
+        margin-left: -45px;
+    }
+    
+}
+
+@media screen and (max-width:375px) {
+    .search-bar{
+        margin-right: 40px;
+    }
+    
+}
+@media screen and (max-width:375px) {
+    .search-bar{
+        margin-left: 40px;
+    }
+    
+}

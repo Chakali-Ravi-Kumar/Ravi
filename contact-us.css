@@ -86,14 +86,49 @@
     font-size: x-large;
 }
 
+ input::placeholder{
+    font-weight: bold;
+    color: black;
+}
+
+textarea::placeholder{
+
+    font-weight: bold;
+    color: black;
+}
+
+
 .form-below-part h5{
     font-size: xx-large;
     margin-top: 160px;
 }
 
+
+.form input{
+    width: 85%;
+    padding: 15px;
+    font-weight: bold;
+}
+.form textarea{
+    width: 85%;
+    padding: 15px;
+    font-weight: bold;
+}
+
 .form-below-part2 h5{
     font-size: xx-large;
     /* margin-top: 160px; */
+}
+
+.search-bar input{
+    width: 100%;
+    height: 45px;
+}
+.search-bar button{
+    width: 50px;
+}
+.second-side-bar input{
+    width: 100%;
 }
 
 
@@ -138,6 +173,7 @@
     border-top: none;
     border-bottom: 1px dotted black;
 }
+
 
 @media screen and (max-width:425px) {
     .map-section{

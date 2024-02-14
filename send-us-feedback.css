@@ -8,6 +8,10 @@
     /* margin-top: 300px; */
 }
 
+img{
+    width: 100%;
+}
+
 .second-side-bar{
     background-color: black;
     color: white;
@@ -40,9 +44,32 @@
     border-bottom: 1px dotted black;
 }
 
+.search-bar input{
+    width: 100%;
+    height: 45px;
+}
+.search-bar button{
+    width: 50px;
+}
+.second-side-bar  input{
+    width: 100%;
+}
+
 .form{
     background-color: #2D69A7;
     border-radius: 1%;
+}
+
+.form input {
+    width: 85%;
+    padding: 15px;
+}
+
+.form textarea{
+    width: 85%;
+}
+.submit-btn{
+    padding: 15px 50px;
 }
 /* .btn{
     margin-left: 130px;

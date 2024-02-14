@@ -1,0 +1,79 @@
+.background-img {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    height: 70vh;
+    background: url('https://www.ciobulletin.com/image/cb-website-banner03.jpg') center/cover no-repeat;
+    margin-right: 160px;
+}
+.background-img h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-bg {
+    grid-column: 3 / span 6; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+   
+}
+
+@media screen and (max-width:768px) {
+    .background-img {
+    height: 70rem;
+
+    }
+
+}
+
+@media screen and (max-width:425px) {
+    .background-img {
+    height: 100rem;
+
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .background-img{
+        width: 100%;
+        margin-left: -20px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 80px;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .background-img{
+       
+        width: 90%;
+       margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width:1440px) {
+    .background-img{
+       
+        width: 90%;
+       margin-left: 60px;
+        
+    }
+
+}
+@media screen and (max-width:425px) {
+    .background-img{
+       
+        width: 100%;
+       margin-left: -0.4px;   
+       justify-content: center;
+    }
+    
+}

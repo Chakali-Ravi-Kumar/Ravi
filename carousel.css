@@ -1,0 +1,87 @@
+/* Carousel part starts */
+.Carousel-slider {
+    height: 560px;
+    position: relative;
+    width: 100%;
+}
+
+.Carousel-slider.fullwidth {
+    height: 500px;
+}
+
+.Carousel-slider.fullwidth .slider-item {
+    height: 450px;
+    line-height: 480px;
+    width: 100%
+}
+
+.carousel-item a{
+    color: white;
+    text-decoration-color: white;
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+	perspective: 800px  !important;
+}
+
+.slider-item {
+    box-shadow: 0 1px 3px rgba(0,0,0,.06), 0 1px 2px rgba(0,0,0,.12);
+    display: none;
+    height: 414px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 340px;   
+    border-radius: 0%;
+    cursor: pointer;
+}
+
+.indicators {
+	top: 0;
+    left: 50%;
+    padding: 0;
+    list-style-type: none;
+    margin: 40px 0 0 -77px;
+    position: absolute;
+}
+
+.indicators li {
+    color: #255f8b;
+    float: left;
+    height: 16px;
+    margin-right: 8px;
+    text-align: center;
+    width: 16px;
+}
+
+.indicators li:last-child {margin: 0;}
+.indicators a {
+    background: #00416a;
+    border-radius: 8px;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+}
+
+.indicators .active a {
+	background: #e4e5e6;
+
+}       
+
+.slider1{
+    width: 340px;
+    height: 414px;
+}
+
+
+.slider1 {background-image: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-january-monthly-special-2024-cover.jpg'); }
+.slider2 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-applied-seals-n-a-inc-cover.jpg'); }
+.slider3 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-monthly-special-cover.jpg'); }
+.slider4 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-december-edition-2023-cover.jpg'); }
+.slider5 {background: url('https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-monthly-special-2023-cover-story.jpg'); }
+
+/* Carousel part ends */

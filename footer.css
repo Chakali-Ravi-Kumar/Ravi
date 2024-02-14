@@ -1,3 +1,19 @@
+
+html,body{
+    
+    padding-left: 0;
+     overflow-x: hidden;
+     max-width: 100%;
+     overscroll-behavior: none;
+     padding-right: 0;
+     justify-content: center;
+     margin: 0;
+     margin-left: 0;
+     margin-right: 0;
+ 
+ }
+
+
 .footer{
     background-color: black;
     color: white;
@@ -36,6 +52,34 @@
     width: auto;
 }
 
+.foot-head #latest{
+    padding-right: 10px;
+    color: rgb(199, 4, 4);
+}
+
+.foot-head #magazines{
+    padding-right: 10px;
+}
+
+.f-mag-main{
+    justify-content: space-evenly
+}
+
+.f-mags{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.f-mag-border{
+    border: 1px  solid white;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+.f-mag-border a img{
+    height: 152px;
+    width: 122px;
+}
+
 .second-foot{
     background-color: black;
     margin-top: 1px;
@@ -64,6 +108,17 @@
 }
 .copy-right{
     display: flex;
+}
+
+.copy-right i{
+    padding-right: 5px;
+    margin-top: 5px;
+}
+
+.copy-right a{
+
+    padding-left: 5px;
+
 }
 
 

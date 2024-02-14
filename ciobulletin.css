@@ -20,63 +20,7 @@
     overflow: hidden;   
 
 }
-.uselect{
-    border: none;
-}
-.header{
-    display: flex;
-    
 
-}
-.tselect{
-    border: none;
-    display: flex;
-
-    
-}
-
-.tselect a{
-    display: flex;
-    padding-right: 5px;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-}
-.bselect{
-    display: flex;
-}
-.bselect a{
-    padding-right: 5px;
-    text-decoration: none;
-    color: black;
-    
-}
-.iselsct{
-    display: flex;
-    
-
-}
-.iselsct a{
-    padding-right: 5px;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0;
-    align-items: center;
-}
-a{
-    text-decoration: none;
-}
-
-.links a{
-    text-decoration: none;
-    color: black;
-    
-}
 
 .banner img{
     margin-top: 30px;
@@ -108,6 +52,24 @@ a{
 }
 
 .second-side-bar input{
+    width: 100%;
+}
+
+.search-bar input{
+
+    width: 275px;
+    height: 40px;
+
+}
+
+.search-bar button{
+    height: 40px;
+    width: 40px;
+    justify-content: center;
+}
+
+.video iframe{
+    height: 100%;
     width: 100%;
 }
 
@@ -440,3 +402,174 @@ html,body{
 
 
 
+/* search-bar starts */
+
+@media screen and (max-width:768px) {
+
+    .search-bar{
+        justify-content: center;
+        max-width: 400px;
+            
+    }
+    
+}
+
+
+@media screen and (max-width:320px) {
+
+    .search-bar{
+        padding-left: 40px;
+        padding-right: 40px;
+        
+    }
+    
+}
+@media screen and (max-width:425px) {
+
+    .search-bar{
+        margin-top: 10px;
+        margin-bottom: 40px;
+       
+    }
+    
+}
+@media screen and (max-width:576px) {
+
+    .side-bar{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        
+    }
+    
+}
+@media screen and (max-width:1024) {
+    .search-bar{
+        width: 100px;
+    }
+    
+}
+
+/* search-bar ends */
+
+
+.search-bar{
+    display: flex;
+    margin-top: 120px;
+    
+
+}
+#search-icon button:hover{
+    background-color: gray;
+    color: white;
+}
+
+
+
+/* side bar */
+
+.side-bar{
+    width: 100%;
+    border: 2px solid;
+    border-top: 10px solid;
+    margin-top: 50px;
+   
+}
+
+@media screen and (max-width:768px) {
+    .second-side-bar{
+      margin-left: 60px;
+    }
+    
+}
+@media screen and (max-width:576px) {
+
+    .second-side-bar{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+    
+}
+
+.second-side-bar{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding-bottom: 50px;
+    margin-left: 7px;
+    
+}
+
+.second-side-bar button{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: rgb(58, 55, 55);
+    color: white;
+    
+}
+
+.second-side-bar button:hover{
+    background-color: rgb(37, 36, 36);
+}
+
+.second-side-bar button:active{
+    
+    border-color: gray;
+}
+
+
+@media screen and (max-width:425px) {
+    .second-side-bar{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+
+    .second-side-bar h5{
+        padding-top: 20px;
+    }
+
+}
+
+/* side bar */
+
+
+
+
+/* sliding logoes starts*/
+@keyframes slide{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.logos{
+
+    overflow: hidden;
+    padding: 60px 0;
+    
+
+}
+.logos-slide img{
+    height: 100px;
+    width: 150px;
+    margin: 0 40px;
+}
+.logos-slide{
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+}
+
+/* sliding logoes ends*/

@@ -1,0 +1,111 @@
+/* dropdown */
+
+
+.even-space{
+    justify-content: space-evenly;
+}
+
+.content{
+   
+    display: none;
+    
+}
+
+.content a{
+    display: block;
+}
+
+.tselect:hover .content{
+    display: block;
+}
+
+
+.dropdown:hover > .dropdown-menu{
+    display: block;
+
+
+}
+.dropdown:hover > .dropdown-menu
+{
+    display: flex;
+}
+
+
+.logo{
+    width: 100%;
+}
+
+
+.tech{
+    overflow: scroll;
+    width: 100vw;
+    margin-bottom: 20px;
+}
+
+.industry{
+    overflow: scroll;
+    width: 100vw;
+    
+}
+
+@media screen and (max-width: 766px) {
+    .menu{
+        display: block;
+        margin-left: 30px;
+        border: 4px black;
+     
+    }
+    .menu:active > .dropdown-menu {
+ 
+    display: flex;
+    }
+}
+
+
+@media screen and (max-width: 766px) {
+    .nav-toggle {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .nav-links {
+        position: relative;
+        left: -100%;
+        width: 100%;
+        display: none;
+        
+    }
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links .navbar{
+        flex-direction: column;
+    }
+
+    
+
+    .navbar ul{
+        flex-direction: column;
+
+    }
+    .navbar li a{
+        flex-direction: column;
+
+    }
+    .navbar select{
+        flex-direction: column;
+
+    }
+    .navbar a.btn{
+        flex-direction: column;
+
+
+    }
+   
+    .navbar {
+        display: block;
+        width: 100%;
+    }
+    
+}

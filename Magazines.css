@@ -1,0 +1,28 @@
+
+
+.bg-color-text{
+    background-color: black;
+    color: white;
+}
+
+.double-border{
+
+    height: 1px;
+    border-top: 1px black dotted;
+    border-bottom: 1px black dotted;
+}
+
+.small{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.big{
+
+    padding-left: 130px;
+    padding-right: 130px;
+}
+#ancher-heading{
+
+    color: black;
+    
+}

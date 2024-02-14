@@ -10,6 +10,21 @@
     align-items: center;
 }
 
+.search-bar input{
+    width: 100%;
+    height: 45px;
+}
+.search-bar button{
+    width: 50px;
+}
+
+.second-side-bar input{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
 .content-bg {
     grid-column: 3 / span 6; 
     display: flex;

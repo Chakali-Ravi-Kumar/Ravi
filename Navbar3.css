@@ -1,0 +1,100 @@
+
+/* .dropdown:hover > .dropdown-menu{
+    display: block;
+
+
+} */
+
+
+.dropdown:hover > .dropdown-menu
+{
+    display: flex;
+}
+
+
+.logo{
+    width: 100%;
+}
+
+.logo{
+    height: 73.53px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.double-border{
+    height: 1px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: hidden;   
+
+}
+
+
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width: 766px) {
+    .menu{
+        display: flex;
+        margin-left: 30px;
+        border: 4px black;
+     
+    }
+    .menu:active > .dropdown-menu
+{
+    display: flex;
+}
+}
+
+
+.navbar i{
+    margin-top: -23px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar select {
+    border: none;
+}
+
+.navbar li {
+    margin-right: 10px;
+    
+}
+
+.navbar a.btn {
+    text-decoration: none; 
+    color: white;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+}
+.navbar i{
+    padding-bottom: 5px;
+}
+
+/* navbar */
+
+.submenu li a:hover{
+    display: block;
+    visibility: visible;
+}
+.navbar .submenu li{
+
+position: absolute;
+margin-top: 100px;
+display: block;
+}
+
