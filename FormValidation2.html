@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation 2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/formvalidation.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <form action="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+                    <div class="formdesign mt-md-5" id="name">
+
+                        <input type="text" name="fname" class="pl-md-3" placeholder="YOUR NAME"><br>
+                        <b><span class="formerror ml-md-3"></span></b>
+
+                    </div>
+                    <div class="formdesign mt-md-5" id="email">
+
+                        <input type="email" name="femail" class="pl-md-3" placeholder="YOUR EMAIL" ><br>
+                        <b><span class="formerror ml-md-3"></span></b>
+
+                    </div>
+                    <div class="formdesign mt-md-5" id="phone">
+
+                        <input type="number" name="fphone" class="pl-md-3" placeholder="YOUR PHONE"><br>
+                        <b><span class="formerror ml-md-3"></span></b>
+
+                    </div>
+                    <div class="formdesign mt-md-5" id="comment">
+
+                        <textarea name="fcomment" id="" cols="30" rows="10" class="pl-md-3" placeholder="Comment"></textarea><br>
+                        <b><span class="formerror ml-md-3"></span></b>
+
+
+                    </div>
+
+                    <input class="button offset-4 mt-md-4 justify-content-center" type="submit" value="SEND">
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+
+                // if(item.length > 0){       
+                //     item.innerHTML = "";
+                // }
+            
+        function clearErrors(){
+            errors = document.getElementsByClassName('formerror');
+
+            for(let item of errors){
+                if(name.length > 0){
+                    item.innerHTML = "";    
+                }
+               
+                // item.innerHTML = "";
+            }
+        }
+
+
+        function clearErrors(){
+            errors = document.getElementsByClassName('formerror');
+
+            
+            for(let item of errors){
+               
+                item.innerHTML = "";
+            }
+        }
+
+        function seterror(id,error){
+
+            element = document.getElementById(id);
+            element.getElementsByClassName('formerror')[0].innerHTML = error;
+
+        }
+
+        function validateForm(){
+            var returnval = true;
+            clearErrors();
+
+
+            var name = document.forms['myForm']["fname"].value;
+
+            if(name.length < 5){
+                seterror("name", "*Length of name is to short");
+                returnval = false;
+            }
+
+            if(name.length == 0){
+                seterror("name", "*Name cannot be empty");
+                returnval = false;
+            }
+
+
+
+            var email = document.forms['myForm']["femail"].value;
+            
+            if(email.length > 25){
+                seterror("email", "*Email length is too long");
+                returnval = false;
+            }
+
+            if(email.length == 0){
+                seterror("email", "*Email cannot be empty");
+                returnval = false;
+            }
+
+
+            var phone = document.forms['myForm']["fphone"].value;
+            
+            if(phone.length != 10){
+                seterror("phone", "*Phone Number should be of 10 digits long");
+                returnval = false;
+            }
+
+
+            var comment = document.forms['myForm']["fcomment"].value;
+            if(comment.length == 0){
+                seterror("comment","*Comment section cannot be empty");
+                returnval = false;
+            }
+
+           
+
+
+            return returnval;
+        }
+    </script>
+
+</body>
+</html>
