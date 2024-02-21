@@ -1,0 +1,49 @@
+
+.heading{
+    /*  style="display: flex;" */
+    display: flex;
+}
+.left-arrow-icon a{
+    text-decoration: none;
+    color: black;
+}
+
+.left-arrow-icon h4 :hover{
+    color: blue;
+
+}
+.double-border{
+
+    height: 1px;
+    border-top: 1px black dotted;
+    border-bottom: 1px black dotted;
+
+
+}
+.subs-images{
+    width: 171px;
+    height: 221px;
+}
+.subs-images img{
+    width: 100%;
+}
+.bisuness-news-margin img{
+    width: 100%;
+}
+.recc-news img{
+    width: 100%;
+}
+@media screen and (max-width:425px) {
+
+    .bisuness-news-margin{
+        margin-right: 20px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+
+    .recc-news{
+        margin-right: 30px;
+    }
+    
+}

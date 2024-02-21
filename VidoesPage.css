@@ -1,0 +1,32 @@
+.Vidoes{
+    height: 14rem;
+    width: 90%;
+}
+.video-heading{
+    color: black;
+}
+.double-border{
+    height: 1px;
+    border-top: 1px black dotted;
+    border-bottom: 1px black dotted;
+
+}
+img{
+    width: 100%;
+}
+
+@media screen and (max-width:425px) {
+
+    .bisuness-news-margin  {
+        margin-left: -1px;
+    }
+    .load-more-btn{
+       
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .recc-news{
+        margin-left: -20px;
+
+    }
+}
