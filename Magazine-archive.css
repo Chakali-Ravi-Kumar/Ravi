@@ -1,0 +1,41 @@
+select{
+    width: 100%;
+    height: 40px;
+}
+.Filter-button a{
+    width: 100%;
+}
+.bouble-border{
+    height: 1px;
+    border-top: 1px black dotted;
+    border-bottom: 1px black dotted;
+
+}
+img{
+    width: 100%;
+}
+
+@media screen and (max-width:425px) {
+
+    .section-one{
+        margin-right: 20px;
+    }
+    .bisuness-news-margin{
+        margin-right: 20px;
+
+
+    }
+    select{
+        margin-bottom: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:320px) {
+
+    .recc-news{
+        margin-right: 20px;
+    }
+    
+}
