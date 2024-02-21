@@ -1,0 +1,21 @@
+
+.img-section img{
+    width: 100%;
+    border-radius: 70%;
+}
+
+.img-text{
+    color: gray;
+    font-size: 20px;
+}
+@media screen and (max-width:425px) {
+
+    .img-section img{
+        margin-left: -15px;
+    }
+    
+    .recc-news{
+        /* margin-left: -10px; */
+        margin-right: 10px;
+    }
+}

@@ -1,0 +1,38 @@
+img{
+    width: 100%;
+}
+
+.first-section a{
+    color: black;
+}
+.underline{
+    border-top: 0;
+    border-bottom: 1px dotted black;
+}
+.double-border{
+    height: 1px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+
+}
+.second-section a{
+    color: black;
+}
+.third-secton #ancher-heading{
+    color: black;
+}
+
+@media screen and (max-width:425px) {
+    .first-section{
+        margin-left: -13px;
+    }
+    .second-section{
+        margin-left: -1px;
+
+    }
+    .third-secton{
+        margin-left: -1px;
+
+    }
+    
+}
