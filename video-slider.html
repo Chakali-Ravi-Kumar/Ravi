@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video slider</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="javascript/slick.min.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 mt-md-5 offset-1">
+                <div class="row">
+                    <div class="col-md-9 Video-slider">
+                        <div class="row vdo-slide pr-md-5">
+                            <div class="col-md-4">
+                                <iframe class="pr-md-4"  width="310" height="220" src="https://www.youtube.com/embed/ElgxSExZ--Y?si=OUgbYJPHvq1EoXbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="row vdo-slide pr-md-5">
+                            <div class="col-md-4">
+                                <iframe class="pr-md-4" width="310" height="220" src="https://www.youtube.com/embed/ElgxSExZ--Y?si=OUgbYJPHvq1EoXbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="row vdo-slide pr-md-5">
+                            <div class="col-md-4">
+                                <iframe class="pr-md-4" width="310" height="220" src="https://www.youtube.com/embed/ElgxSExZ--Y?si=OUgbYJPHvq1EoXbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="row vdo-slide pr-md-5">
+                            <div class="col-md-4">
+                                <iframe class="pr-md-4" width="310" height="220" src="https://www.youtube.com/embed/ElgxSExZ--Y?si=OUgbYJPHvq1EoXbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="row vdo-slide pr-md-5">
+                            <div class="col-md-4">
+                                <iframe class="pr-md-4" width="310" height="220" src="https://www.youtube.com/embed/ElgxSExZ--Y?si=OUgbYJPHvq1EoXbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="row vdo-slide pr-md-5">
+                            <div class="col-md-4">
+                                <iframe class="pr-md-4" width="310" height="220" src="https://www.youtube.com/embed/ElgxSExZ--Y?si=OUgbYJPHvq1EoXbp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function(){
+            $('.Video-slider').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d mag-slider</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="javascript/slick.min.js"></script>
+
+    <style>
+        .magazine-slider .mag-slide img{
+            /* transform: scale(1.2); */
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 mt-md-5 magazine-slider offset-1">
+                <div class="row mag-slide">
+                    <div class="col-md-2">
+                        <img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-literal-humans-cover.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="row mag-slide">
+                    <div class="col-md-2">
+                        <img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-literal-humans-cover.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mag-slide">
+                    <div class="col-md-2">
+                        <img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-literal-humans-cover.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mag-slide">
+                    <div class="col-md-2">
+                        <img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-literal-humans-cover.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row mag-slide">
+                    <div class="col-md-2">
+                        <img src="https://www.ciobulletin.com/assets/uploads/magazines/ciobulletin-literal-humans-cover.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.magazine-slider').slick({
+            centerMode: true,
+            slidesToShow: 3,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 3
+                }
+                },
+                {
+                breakpoint: 480,
+                settings: {
+                    arrows: false,
+                    centerMode: true,
+                    centerPadding: '40px',
+                    slidesToShow: 1
+                }
+                }
+            ]
+            });
+        });
+    </script>
+</body>
+</html>
