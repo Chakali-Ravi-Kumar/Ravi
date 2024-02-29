@@ -1,55 +1,63 @@
-@extends('students.layout')
-@section('content')
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Products CRUD </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm bg-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="/" class="nav-link text-light offset-3"><h2>Products</h2></a>
+            </li>
+
+        </ul>
+
+    </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <div class="card">
-                    <div class="card-header">
-                        <h2>Student Crud Operations</h2>
-                    </div>
-                    <div class="card-body">
-                        <a href="{{ route('add') }}" class="btn btn-success btn-sm" title="Add New Student">
-                            <i class="fa fa-plus" aria-hidden="true"></i> Add New
-                        </a>
-                        <br/>
-                        <br/>
-                        <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Name</th>
-                                        <th>Address</th>
-                                        <th>Mobile</th>
-                                        <th>Actions</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                @foreach($students as $item)
-                                    <tr>
-                                        <td>{{ $loop->iteration }}</td>
-                                        <td>{{ $item->name }}</td>
-                                        <td>{{ $item->address }}</td>
-                                        <td>{{ $item->mobile }}</td>
- 
-                                        <td>
-                                            <a href="" title="View Student"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
-                                            <a href="" title="Edit Student"><button class="btn btn-primary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Edit</button></a>
- 
-                                            <form method="POST" action="{{ url('/student' . '/' . $item->id) }}" accept-charset="UTF-8" style="display:inline">
-                                                {{ method_field('DELETE') }}
-                                                {{ csrf_field() }}
-                                                <button type="submit" class="btn btn-danger btn-sm" title="Delete Student" onclick="return confirm(&quot;Confirm delete?&quot;)"><i class="fa fa-trash-o" aria-hidden="true"></i> Delete</button>
-                                            </form>
-                                        </td>
-                                    </tr>
-                                @endforeach
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="offset-10">
+            <a href="products/create" class="btn btn-dark mt-md-3">New Product</a>
         </div>
+        {{-- <h1> Product</h1> --}}
+
+        <table class="table table-hover mt-md-5">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Image</th>
+                    <th>Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($products as $product)
+                    
+                <tr>
+                    <td> {{ $loop->index+1 }} </td> 
+                    <td><a href="products/{{ $product->id }}/show" class="text-dark" style="text-decoration: none">{{ $product->name }}</a></td>
+                    <td>
+                        <img src="{{ Storage::url('products/'. $product->image) }}" alt="" class="rounded-circle" width="50" height="50">
+                    </td>
+                    <td>
+                        <a href="products/{{ $product->id }}/edit" class="btn btn-dark btn-sm">Edit</a>
+
+                        <a href="products/{{ $product->id }}/delete" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+
+                    {{-- <td>
+                        <a href="products/{{ $product->id }}/delete" class="btn btn-danger btn-sm ml-md-n5">Delete</a>
+                    </td> --}}
+
+                </tr>
+                @endforeach
+            </tbody>
+
+        </table>
     </div>
-@endsection
+</body>
+</html>
