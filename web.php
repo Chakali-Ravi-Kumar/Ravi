@@ -30,9 +30,6 @@ Route::get('students/destroy/{id}',[App\Http\Controllers\StudentController::clas
 
 
 
-// Route::get('/', function(){
-//     return view('welcome');
-// });
 
 Route::get('/',[ProductController::class,'index'])->name('products.index');
 Route::get('products/create',[ProductController::class,'create'])->name('products.create');
@@ -45,7 +42,26 @@ Route::get('products/{id}/show',[ProductController::class,'show']);   //To view 
 
 
 
+Route::get('/', function(){
+    return view('welcome');
+});
+
+Route::get('/about', function(){
+    return view('about');
+});
+
+Route::get('/post', function(){
+    return view('post');
+});
 
 
+Route::get('/test', function(){
+    return view('test');
+});
 
+Route::get('/users', function(){
+    $name = "Ravi Kumar";
+    $age = "22";
+    return view('users',['user' => $name, 'age' => $age]);
+});
 
