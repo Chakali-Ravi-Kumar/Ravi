@@ -3,10 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\User;
+use Illuminate\Support\Str;
 use App\Models\Post;
-
-class UserController extends Controller
+class PostController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,9 +13,9 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        $user = User::with('post')->find(2);
-        return $user;
+    {   
+        $post = Post::find(1);
+        return $post;
     }
 
     /**
@@ -26,8 +25,17 @@ class UserController extends Controller
      */
     public function create()
     {
-        $user = User::find(4)->delete();
-        // Post::where('user_id',2)->delete();
+        $post_title = "Testing Another New Post Title";
+        // $post_slug = Str::slug($post_title,"-");
+        // echo $post_slug;
+
+        Post::create([
+            'title' => $post_title,
+            // 'slug' => $post_slug,
+            'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, reiciendis',
+            'user_id' => 3
+        ]);
+    
     }
 
     /**
